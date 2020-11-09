@@ -3,8 +3,8 @@
   <channel>
     <title></title>
     <description></description>
-    <link>https://jojekyll.github.io/</link>
-    <atom:link href="https://jojekyll.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>Mon, 09 Nov 2020 23:06:11 +0100</pubDate>
     <lastBuildDate>Mon, 09 Nov 2020 23:06:11 +0100</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
@@ -46,7 +46,7 @@
 
 &lt;figure&gt;
   &lt;a href=&quot;/documentation/elements/button&quot;&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/v8/light-buttons-bis.png&quot; alt=&quot;List Bulma buttons&quot; width=&quot;530&quot; height=&quot;104&quot; /&gt;
+    &lt;img src=&quot;/images/blog/v8/light-buttons-bis.png&quot; alt=&quot;List Bulma buttons&quot; width=&quot;530&quot; height=&quot;104&quot; /&gt;
   &lt;/a&gt;
 &lt;/figure&gt;
 
@@ -54,8 +54,8 @@
 
 &lt;div class=&quot;bd-post-fullwidth&quot;&gt;
   &lt;a href=&quot;/documentation/components/message&quot;&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/v8/messages-before.png&quot; alt=&quot;Messages before&quot; width=&quot;448&quot; height=&quot;1200&quot; /&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/v8/messages-after.png&quot; alt=&quot;Messages after&quot; width=&quot;448&quot; height=&quot;1200&quot; /&gt;
+    &lt;img src=&quot;/images/blog/v8/messages-before.png&quot; alt=&quot;Messages before&quot; width=&quot;448&quot; height=&quot;1200&quot; /&gt;
+    &lt;img src=&quot;/images/blog/v8/messages-after.png&quot; alt=&quot;Messages after&quot; width=&quot;448&quot; height=&quot;1200&quot; /&gt;
   &lt;/a&gt;
 &lt;/div&gt;
 
@@ -129,15 +129,15 @@
 
 &lt;div class=&quot;bd-post-fullwidth&quot;&gt;
   &lt;a href=&quot;/documentation/components/card&quot;&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/v8/card-before.png&quot; alt=&quot;Card before&quot; width=&quot;464&quot; height=&quot;236&quot; /&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/v8/card-after.png&quot; alt=&quot;Card after&quot; width=&quot;464&quot; height=&quot;236&quot; /&gt;
+    &lt;img src=&quot;/images/blog/v8/card-before.png&quot; alt=&quot;Card before&quot; width=&quot;464&quot; height=&quot;236&quot; /&gt;
+    &lt;img src=&quot;/images/blog/v8/card-after.png&quot; alt=&quot;Card after&quot; width=&quot;464&quot; height=&quot;236&quot; /&gt;
   &lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;bd-post-fullwidth&quot;&gt;
   &lt;a href=&quot;/documentation/elements/box&quot; style=&quot;display: block;&quot; class=&quot;has-text-centered&quot;&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/v8/box-before.png&quot; alt=&quot;Box before&quot; width=&quot;464&quot; height=&quot;236&quot; /&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/v8/box-after.png&quot; alt=&quot;Box after&quot; width=&quot;464&quot; height=&quot;236&quot; /&gt;
+    &lt;img src=&quot;/images/blog/v8/box-before.png&quot; alt=&quot;Box before&quot; width=&quot;464&quot; height=&quot;236&quot; /&gt;
+    &lt;img src=&quot;/images/blog/v8/box-after.png&quot; alt=&quot;Box after&quot; width=&quot;464&quot; height=&quot;236&quot; /&gt;
   &lt;/a&gt;
 &lt;/div&gt;
 
@@ -158,7 +158,7 @@
 
 &lt;div class=&quot;bd-post-fullwidth&quot;&gt;
   &lt;a href=&quot;/documentation/components/panel&quot;&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/v8/panel-colors.png&quot; alt=&quot;Panel colors&quot; width=&quot;768&quot; height=&quot;1029&quot; /&gt;
+    &lt;img src=&quot;/images/blog/v8/panel-colors.png&quot; alt=&quot;Panel colors&quot; width=&quot;768&quot; height=&quot;1029&quot; /&gt;
   &lt;/a&gt;
 &lt;/div&gt;
 
@@ -236,8 +236,8 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;p&gt;The new 0.8.0 version should be fully compatible with any Bulma setup. Feel free to &lt;a href=&quot;https://github.com/jgthms/bulma/issues&quot; target=&quot;_blank&quot;&gt;post an issue&lt;/a&gt; if you encounter any problem upgrading.&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Oct 2019 00:00:00 +0200</pubDate>
-        <link>https://jojekyll.github.io/2019/10/15/light-dark-colors/</link>
-        <guid isPermaLink="true">https://jojekyll.github.io/2019/10/15/light-dark-colors/</guid>
+        <link>/2019/10/15/light-dark-colors/</link>
+        <guid isPermaLink="true">/2019/10/15/light-dark-colors/</guid>
         
         
       </item>
@@ -251,18 +251,18 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;p&gt;While providing these variables is necessary, it’s only useful if developers are aware they exist! Keeping &lt;strong&gt;in sync&lt;/strong&gt; the documentation and the source files used to be a manual process. It is now &lt;strong&gt;automatic&lt;/strong&gt;, thanks to a script that parses the source files and outputs the numerous Sass variables as JSON data.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;https://jojekyll.github.io/images/blog/variables/json.png&quot; alt=&quot;JSON variables&quot; width=&quot;275&quot; height=&quot;775&quot; /&gt;
+  &lt;img src=&quot;/images/blog/variables/json.png&quot; alt=&quot;JSON variables&quot; width=&quot;275&quot; height=&quot;775&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;As an added bonus, each variable row in the docs comes with its &lt;strong&gt;type&lt;/strong&gt; and its &lt;strong&gt;computed value&lt;/strong&gt; (if applicable).&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;https://jojekyll.github.io/images/blog/variables/variables-table.png&quot; alt=&quot;Variables table&quot; width=&quot;597&quot; height=&quot;212&quot; /&gt;
+  &lt;img src=&quot;/images/blog/variables/variables-table.png&quot; alt=&quot;Variables table&quot; width=&quot;597&quot; height=&quot;212&quot; /&gt;
 &lt;/figure&gt;
 </description>
         <pubDate>Wed, 20 Jun 2018 00:00:00 +0200</pubDate>
-        <link>https://jojekyll.github.io/2018/06/20/automatic-variables-documentation/</link>
-        <guid isPermaLink="true">https://jojekyll.github.io/2018/06/20/automatic-variables-documentation/</guid>
+        <link>/2018/06/20/automatic-variables-documentation/</link>
+        <guid isPermaLink="true">/2018/06/20/automatic-variables-documentation/</guid>
         
         
       </item>
@@ -774,8 +774,8 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;/table&gt;
 </description>
         <pubDate>Sat, 14 Apr 2018 00:00:00 +0200</pubDate>
-        <link>https://jojekyll.github.io/2018/04/14/migration-to-v070/</link>
-        <guid isPermaLink="true">https://jojekyll.github.io/2018/04/14/migration-to-v070/</guid>
+        <link>/2018/04/14/migration-to-v070/</link>
+        <guid isPermaLink="true">/2018/04/14/migration-to-v070/</guid>
         
         
       </item>
@@ -785,9 +785,9 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
         <description>&lt;p&gt;The Bulma website has been widely redesigned! There’s been a lot of work, to say the least:&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;https://jojekyll.github.io/images/blog/v7/files.png&quot; alt=&quot;files&quot; width=&quot;312&quot; height=&quot;37&quot; /&gt;
+  &lt;img src=&quot;/images/blog/v7/files.png&quot; alt=&quot;files&quot; width=&quot;312&quot; height=&quot;37&quot; /&gt;
   &lt;br /&gt;
-  &lt;img src=&quot;https://jojekyll.github.io/images/blog/v7/diff.png&quot; alt=&quot;diff&quot; width=&quot;167&quot; height=&quot;38&quot; /&gt;
+  &lt;img src=&quot;/images/blog/v7/diff.png&quot; alt=&quot;diff&quot; width=&quot;167&quot; height=&quot;38&quot; /&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Just see for yourself!&lt;/p&gt;
@@ -795,14 +795,14 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;div class=&quot;columns&quot;&gt;
   &lt;div class=&quot;column&quot;&gt;
     &lt;p class=&quot;has-text-centered has-text-grey-light&quot;&gt;Before&lt;/p&gt;
-    &lt;a href=&quot;https://jojekyll.github.io/images/blog/v7/before.png&quot;&gt;
-      &lt;img src=&quot;https://jojekyll.github.io/images/blog/v7/before.png&quot; alt=&quot;v7 website&quot; width=&quot;1400&quot; height=&quot;1200&quot; /&gt;
+    &lt;a href=&quot;/images/blog/v7/before.png&quot;&gt;
+      &lt;img src=&quot;/images/blog/v7/before.png&quot; alt=&quot;v7 website&quot; width=&quot;1400&quot; height=&quot;1200&quot; /&gt;
     &lt;/a&gt;
   &lt;/div&gt;
   &lt;div class=&quot;column&quot;&gt;
     &lt;p class=&quot;has-text-centered has-text-grey-light&quot;&gt;After&lt;/p&gt;
-    &lt;a href=&quot;https://jojekyll.github.io/images/blog/v7/after.png&quot;&gt;
-      &lt;img src=&quot;https://jojekyll.github.io/images/blog/v7/after.png&quot; alt=&quot;v7 website&quot; width=&quot;1400&quot; height=&quot;1200&quot; /&gt;
+    &lt;a href=&quot;/images/blog/v7/after.png&quot;&gt;
+      &lt;img src=&quot;/images/blog/v7/after.png&quot; alt=&quot;v7 website&quot; width=&quot;1400&quot; height=&quot;1200&quot; /&gt;
     &lt;/a&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -821,8 +821,8 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;p&gt;The &lt;strong&gt;navbar&lt;/strong&gt; has been updated with a lighter markup and cleaner design:&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;https://jojekyll.github.io/images/blog/v7/navbar.png&quot;&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/v7/navbar.png&quot; alt=&quot;navbar&quot; width=&quot;1080&quot; height=&quot;84&quot; /&gt;
+  &lt;a href=&quot;/images/blog/v7/navbar.png&quot;&gt;
+    &lt;img src=&quot;/images/blog/v7/navbar.png&quot; alt=&quot;navbar&quot; width=&quot;1080&quot; height=&quot;84&quot; /&gt;
   &lt;/a&gt;
 &lt;/figure&gt;
 
@@ -842,8 +842,8 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;p&gt;On the homepage, there’s a new &lt;a href=&quot;/#customize&quot;&gt;&lt;strong&gt;customization&lt;/strong&gt; section with a live example&lt;/a&gt;:&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;https://jojekyll.github.io/#customize&quot;&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/v7/customize.png&quot; alt=&quot;customize&quot; width=&quot;492&quot; height=&quot;582&quot; /&gt;
+  &lt;a href=&quot;/#customize&quot;&gt;
+    &lt;img src=&quot;/images/blog/v7/customize.png&quot; alt=&quot;customize&quot; width=&quot;492&quot; height=&quot;582&quot; /&gt;
   &lt;/a&gt;
 &lt;/figure&gt;
 
@@ -859,8 +859,8 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;/h3&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;https://jojekyll.github.io/images/blog/v7/breadcrumb.png&quot;&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/v7/breadcrumb.png&quot; alt=&quot;breadcrumb&quot; width=&quot;422&quot; height=&quot;24&quot; /&gt;
+  &lt;a href=&quot;/images/blog/v7/breadcrumb.png&quot;&gt;
+    &lt;img src=&quot;/images/blog/v7/breadcrumb.png&quot; alt=&quot;breadcrumb&quot; width=&quot;422&quot; height=&quot;24&quot; /&gt;
   &lt;/a&gt;
 &lt;/figure&gt;
 
@@ -893,8 +893,8 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;p&gt;These intermediate pages have new &lt;strong&gt;link boxes&lt;/strong&gt; that help dive into each sub-category:&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;https://jojekyll.github.io/images/blog/v7/links.png&quot;&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/v7/links.png&quot; alt=&quot;footer links&quot; width=&quot;664&quot; height=&quot;468&quot; /&gt;
+  &lt;a href=&quot;/images/blog/v7/links.png&quot;&gt;
+    &lt;img src=&quot;/images/blog/v7/links.png&quot; alt=&quot;footer links&quot; width=&quot;664&quot; height=&quot;468&quot; /&gt;
   &lt;/a&gt;
 &lt;/figure&gt;
 
@@ -912,16 +912,16 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;p&gt;Next to the breadcrumb, you can easily navigate to the &lt;strong&gt;sibling&lt;/strong&gt; pages with the &lt;strong&gt;previous&lt;/strong&gt; and &lt;strong&gt;next&lt;/strong&gt; links:&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;https://jojekyll.github.io/images/blog/v7/prevnext.png&quot;&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/v7/prevnext.png&quot; alt=&quot;prevnext buttons&quot; width=&quot;48&quot; height=&quot;24&quot; /&gt;
+  &lt;a href=&quot;/images/blog/v7/prevnext.png&quot;&gt;
+    &lt;img src=&quot;/images/blog/v7/prevnext.png&quot; alt=&quot;prevnext buttons&quot; width=&quot;48&quot; height=&quot;24&quot; /&gt;
   &lt;/a&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;These links are also available at the bottom:&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;https://jojekyll.github.io/images/blog/v7/prevnextbis.png&quot;&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/v7/prevnextbis.png&quot; alt=&quot;prevnextbis buttons&quot; width=&quot;664&quot; height=&quot;58&quot; /&gt;
+  &lt;a href=&quot;/images/blog/v7/prevnextbis.png&quot;&gt;
+    &lt;img src=&quot;/images/blog/v7/prevnextbis.png&quot; alt=&quot;prevnextbis buttons&quot; width=&quot;664&quot; height=&quot;58&quot; /&gt;
   &lt;/a&gt;
 &lt;/figure&gt;
 
@@ -939,8 +939,8 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;p&gt;There’s a new &lt;strong&gt;sidebar&lt;/strong&gt; including a navigation menu with all the categories and sub-categories:&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;https://jojekyll.github.io/images/blog/v7/categories.png&quot;&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/v7/categories.png&quot; alt=&quot;categories menu&quot; width=&quot;256&quot; height=&quot;397&quot; /&gt;
+  &lt;a href=&quot;/images/blog/v7/categories.png&quot;&gt;
+    &lt;img src=&quot;/images/blog/v7/categories.png&quot; alt=&quot;categories menu&quot; width=&quot;256&quot; height=&quot;397&quot; /&gt;
   &lt;/a&gt;
 &lt;/figure&gt;
 
@@ -958,8 +958,8 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;p&gt;On some pages below the categories, you’ll find a new menu called “On this page” which is actually a &lt;strong&gt;scroll spy&lt;/strong&gt;:&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;https://jojekyll.github.io/images/blog/v7/scrollspy.png&quot;&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/v7/scrollspy.png&quot; alt=&quot;scrollspy menu&quot; width=&quot;199&quot; height=&quot;341&quot; /&gt;
+  &lt;a href=&quot;/images/blog/v7/scrollspy.png&quot;&gt;
+    &lt;img src=&quot;/images/blog/v7/scrollspy.png&quot; alt=&quot;scrollspy menu&quot; width=&quot;199&quot; height=&quot;341&quot; /&gt;
   &lt;/a&gt;
 &lt;/figure&gt;
 
@@ -977,8 +977,8 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;p&gt;The footer has been redesigned as well. Among other things, there’s a &lt;strong&gt;sitemap&lt;/strong&gt; available:&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;https://jojekyll.github.io/images/blog/v7/footer.png&quot;&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/v7/footer.png&quot; alt=&quot;footer links&quot; width=&quot;984&quot; height=&quot;302&quot; /&gt;
+  &lt;a href=&quot;/images/blog/v7/footer.png&quot;&gt;
+    &lt;img src=&quot;/images/blog/v7/footer.png&quot; alt=&quot;footer links&quot; width=&quot;984&quot; height=&quot;302&quot; /&gt;
   &lt;/a&gt;
 &lt;/figure&gt;
 
@@ -998,8 +998,8 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;p&gt;This will help further updates to be easier.&lt;/p&gt;
 </description>
         <pubDate>Fri, 13 Apr 2018 00:00:00 +0200</pubDate>
-        <link>https://jojekyll.github.io/2018/04/13/website-redesign/</link>
-        <guid isPermaLink="true">https://jojekyll.github.io/2018/04/13/website-redesign/</guid>
+        <link>/2018/04/13/website-redesign/</link>
+        <guid isPermaLink="true">/2018/04/13/website-redesign/</guid>
         
         
       </item>
@@ -1024,8 +1024,8 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;p&gt;Check out the &lt;a href=&quot;/documentation/elements/icon/&quot;&gt;icon documentation&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 Jan 2018 00:00:00 +0100</pubDate>
-        <link>https://jojekyll.github.io/2018/01/18/bulma-supports-font-awesome-5/</link>
-        <guid isPermaLink="true">https://jojekyll.github.io/2018/01/18/bulma-supports-font-awesome-5/</guid>
+        <link>/2018/01/18/bulma-supports-font-awesome-5/</link>
+        <guid isPermaLink="true">/2018/01/18/bulma-supports-font-awesome-5/</guid>
         
         
       </item>
@@ -1036,15 +1036,15 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 
 &lt;figure&gt;
   &lt;a href=&quot;https://www.patreon.com/jgthms&quot; target=&quot;_blank&quot;&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/patreon-homepage.png&quot; alt=&quot;Bulma Patreon homepage&quot; width=&quot;840&quot; height=&quot;525&quot; /&gt;
+    &lt;img src=&quot;/images/blog/patreon-homepage.png&quot; alt=&quot;Bulma Patreon homepage&quot; width=&quot;840&quot; height=&quot;525&quot; /&gt;
   &lt;/a&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;This will allow people to easily support Bulma, and ensure its future development.&lt;/p&gt;
 </description>
         <pubDate>Tue, 14 Nov 2017 00:00:00 +0100</pubDate>
-        <link>https://jojekyll.github.io/2017/11/14/bulma-is-on-patreon/</link>
-        <guid isPermaLink="true">https://jojekyll.github.io/2017/11/14/bulma-is-on-patreon/</guid>
+        <link>/2017/11/14/bulma-is-on-patreon/</link>
+        <guid isPermaLink="true">/2017/11/14/bulma-is-on-patreon/</guid>
         
         
       </item>
@@ -1055,7 +1055,7 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 
 &lt;figure&gt;
   &lt;video width=&quot;602.5&quot; height=&quot;360&quot; autoplay=&quot;&quot; muted=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;https://jojekyll.github.io/images/blog/fixed-navbar.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;source src=&quot;/images/blog/fixed-navbar.mp4&quot; type=&quot;video/mp4&quot; /&gt;
   &lt;/video&gt;
 &lt;/figure&gt;
 
@@ -1064,14 +1064,14 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;p&gt;As a added &lt;strong&gt;bonus&lt;/strong&gt;, the bottom navbar required a new &lt;strong&gt;dropup&lt;/strong&gt; feature which has also been implemented!&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;https://jojekyll.github.io/documentation/components/navbar/#fixed-navbar&quot;&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/dropup.png&quot; alt=&quot;Navbar dropup&quot; width=&quot;660&quot; height=&quot;239&quot; /&gt;
+  &lt;a href=&quot;/documentation/components/navbar/#fixed-navbar&quot;&gt;
+    &lt;img src=&quot;/images/blog/dropup.png&quot; alt=&quot;Navbar dropup&quot; width=&quot;660&quot; height=&quot;239&quot; /&gt;
   &lt;/a&gt;
 &lt;/figure&gt;
 </description>
         <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
-        <link>https://jojekyll.github.io/2017/11/01/fixed-navbar/</link>
-        <guid isPermaLink="true">https://jojekyll.github.io/2017/11/01/fixed-navbar/</guid>
+        <link>/2017/11/01/fixed-navbar/</link>
+        <guid isPermaLink="true">/2017/11/01/fixed-navbar/</guid>
         
         
       </item>
@@ -1081,16 +1081,16 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
         <description>&lt;p&gt;Similarly to the &lt;a href=&quot;/2017/08/03/list-of-tags/&quot;&gt;list of tags&lt;/a&gt; launched a few months ago, the &lt;a href=&quot;/documentation/elements/button/&quot;&gt;button&lt;/a&gt; has its own &lt;strong&gt;list of buttons&lt;/strong&gt;:&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;https://jojekyll.github.io/documentation/elements/button/#list-of-buttons&quot;&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/list-of-buttons.png&quot; alt=&quot;List of buttons in CSS&quot; width=&quot;660&quot; height=&quot;550&quot; /&gt;
+  &lt;a href=&quot;/documentation/elements/button/#list-of-buttons&quot;&gt;
+    &lt;img src=&quot;/images/blog/list-of-buttons.png&quot; alt=&quot;List of buttons in CSS&quot; width=&quot;660&quot; height=&quot;550&quot; /&gt;
   &lt;/a&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Although you could already &lt;strong&gt;group&lt;/strong&gt; buttons by using &lt;a href=&quot;/documentation/form/general/#form-group&quot;&gt;from groups&lt;/a&gt;, this new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;buttons&lt;/code&gt; class makes everything easier.&lt;/p&gt;
 </description>
         <pubDate>Sun, 22 Oct 2017 00:00:00 +0200</pubDate>
-        <link>https://jojekyll.github.io/2017/10/22/list-of-buttons/</link>
-        <guid isPermaLink="true">https://jojekyll.github.io/2017/10/22/list-of-buttons/</guid>
+        <link>/2017/10/22/list-of-buttons/</link>
+        <guid isPermaLink="true">/2017/10/22/list-of-buttons/</guid>
         
         
       </item>
@@ -1182,8 +1182,8 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Mon, 09 Oct 2017 00:00:00 +0200</pubDate>
-        <link>https://jojekyll.github.io/2017/10/09/roses-are-red-links-are-blue/</link>
-        <guid isPermaLink="true">https://jojekyll.github.io/2017/10/09/roses-are-red-links-are-blue/</guid>
+        <link>/2017/10/09/roses-are-red-links-are-blue/</link>
+        <guid isPermaLink="true">/2017/10/09/roses-are-red-links-are-blue/</guid>
         
         
       </item>
@@ -1195,16 +1195,16 @@ They replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;p&gt;A tag rarely comes on its own though, so Bulma now supports &lt;a href=&quot;/documentation/elements/tag/#list-of-tags&quot;&gt;list of tags&lt;/a&gt;. The same way you can &lt;a href=&quot;together&quot;&gt;group controls&lt;/a&gt;, you can now &lt;strong&gt;group tags together&lt;/strong&gt; to form a list that can span multiple lines.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;a href=&quot;https://jojekyll.github.io/documentation/elements/tag/#list-of-tags&quot;&gt;
-    &lt;img src=&quot;https://jojekyll.github.io/images/blog/list-of-tags.png&quot; alt=&quot;List of tags in CSS&quot; width=&quot;660&quot; height=&quot;401&quot; /&gt;
+  &lt;a href=&quot;/documentation/elements/tag/#list-of-tags&quot;&gt;
+    &lt;img src=&quot;/images/blog/list-of-tags.png&quot; alt=&quot;List of tags in CSS&quot; width=&quot;660&quot; height=&quot;401&quot; /&gt;
   &lt;/a&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;As a &lt;strong&gt;bonus&lt;/strong&gt;, there is also a &lt;a href=&quot;/documentation/elements/tag/#combinations&quot;&gt;delete tag&lt;/a&gt; available!&lt;/p&gt;
 </description>
         <pubDate>Thu, 03 Aug 2017 00:00:00 +0200</pubDate>
-        <link>https://jojekyll.github.io/2017/08/03/list-of-tags/</link>
-        <guid isPermaLink="true">https://jojekyll.github.io/2017/08/03/list-of-tags/</guid>
+        <link>/2017/08/03/list-of-tags/</link>
+        <guid isPermaLink="true">/2017/08/03/list-of-tags/</guid>
         
         
       </item>
