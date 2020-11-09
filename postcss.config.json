@@ -1,0 +1,25 @@
+{
+  "use": [
+    "rucksack-css"
+  ],
+  "input": "_site/css/un.dojekyll.min.css",
+  "output": "_site/css/un.dojekyll.min.css",
+  "local-plugins": true
+}
+
+{
+  "use": [
+    "postcss-import",
+    "postcss-cssnext",
+    "lost",
+    "rucksack-css",
+    "postcss-autoreset",
+    "postcss-font-magician"
+  ],
+  "input": "src/app.css",
+  "output": "css/main.css",
+  "local-plugins": true,
+  "autoprefixer": {
+    "browsers": "last 2 versions"
+  }
+}
