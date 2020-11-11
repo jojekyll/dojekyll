@@ -1,0 +1,32 @@
+name: blog_single
+timestamp: 1599300945
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/2-col-right.png'
+  name: 2_column_-_right
+  timestamp: 1598743704
+positions:
+  widget-blog-header: The-blog-header
+  widget-blog-nav: The-blog-nav
+  breadcrumbs: Breadcrumbs
+  sidebar: Sidebar
+  widget-blog-footer: The-blog-footer
+sections:
+  header: Header
+  navigation: Navigation
+  main: Main
+  sidebar: Sidebar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  position:
+    position-position-9889: The-blog-header
+    position-position-5612: The-blog-nav
+    position-breadcrumbs: Breadcrumbs
+    position-sidebar: Sidebar
+    position-position-3339: The-blog-footer
+  messages:
+    system-messages-1771: 'System Messages'
+  content:
+    system-content-9713: 'Page Content'
+inherit: {  }
