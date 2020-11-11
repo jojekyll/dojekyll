@@ -1,0 +1,17 @@
+context:
+  -
+    is_attachment: true
+    is_author: true
+    is_category: true
+    is_date: true
+    is_home: true
+    is_preview: true
+    is_search: true
+    is_single: true
+    is_tag: true
+    is_tax: true
+menu: {  }
+language: {  }
+post: {  }
+taxonomy: {  }
+archive: {  }

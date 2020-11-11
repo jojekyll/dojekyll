@@ -1,0 +1,35 @@
+/*
+ Theme Name:   Wmpmana Child
+ Theme URI:    https://wmpmana.github.io
+ Description:  Wmpmana Child Theme
+ Author:       Antonio Trento
+ Author URI:   httpa://antoniotrento.net
+ Template:     g5_wmpmana
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  wmpmanachild
+*/
+
+
+.g-content {
+    margin: 0;
+    padding: 0;
+}
+
+#g-main {
+    padding: 0 0;
+}
+
+.blog-outline .g-content{
+    padding: 0em 3em;
+}
+
+.post-list .g-block{
+    padding: 0em 1em;
+}
+
+.archive-outline .g-block{
+    padding: 0em 1em;
+}
