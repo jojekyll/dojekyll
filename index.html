@@ -15,15 +15,6 @@
 <link rel="alternate" type="application/rss+xml" title="gulpwp &raquo; Feed" href="https://jojekyll.on.fleek.co/feed/" />
 <link rel="alternate" type="application/rss+xml" title="gulpwp &raquo; Comments Feed" href="https://jojekyll.on.fleek.co/comments/feed/" />
 
-<script>var cb = function() {
-var l = document.createElement('link'); l.rel = 'stylesheet';
-l.href = 'https://cdn.statically.io/gh/jojekyll/fleektest/main/css/all.min.css';
-var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-};
-var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-webkitRequestAnimationFrame || msRequestAnimationFrame;
-if (raf) raf(cb);
-else window.addEventListener('load', cb);</script>
 
 <style id='rs-plugin-settings-inline-css'>
 #rs-demo-id {}
@@ -3094,6 +3085,15 @@ E. big-bold@yourweb.com
 		</div>
 
 
+<script>var cb = function() {
+var l = document.createElement('link'); l.rel = 'stylesheet';
+l.href = 'https://cdn.statically.io/gh/jojekyll/fleektest/main/css/all.min.css';
+var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+};
+var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+webkitRequestAnimationFrame || msRequestAnimationFrame;
+if (raf) raf(cb);
+else window.addEventListener('load', cb);</script>
 <script id='rocket-browser-checker-js-after'>
 "use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
 </script>
