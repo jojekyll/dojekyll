@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US" class="no-js">
 	<head>
-	
+
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
@@ -19,7 +19,8 @@
 <style id='rocket-lazyload-inline-css'>
 .rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;cursor:pointer;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:72px;width:72px;left:50%;top:50%;margin-left:-36px;margin-top:-36px;position:absolute;background:url(https://jojekyll.on.fleek.co/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat;cursor:pointer}
 </style>
-<script src='https://jojekyll.on.fleek.co/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" id='jquery-core-js'></script>
 
 
 <link rel="https://api.w.org/" href="https://jojekyll.on.fleek.co/wp-json/" /><link rel="alternate" type="application/json" href="https://jojekyll.on.fleek.co/wp-json/wp/v2/pages/27" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://jojekyll.on.fleek.co/xmlrpc.php?rsd" />
@@ -30,10 +31,10 @@
 <link rel="alternate" type="text/xml+oembed" href="https://jojekyll.on.fleek.co/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fgulpwp.local%2F&#038;format=xml" />
 <style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by Slider Revolution 6.2.22 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
 <script type="text/javascript">function setREVStartSize(e){
-			//window.requestAnimationFrame(function() {				 
-				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
-				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
-				try {								
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
 					var pw = document.getElementById(e.c).parentNode.offsetWidth,
 						newh;
 					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
@@ -43,35 +44,35 @@
 					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
 					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
 					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
-					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
-					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
-						newh = Math.max(e.mh,window.RSIH);					
-					else{					
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
 						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
-						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
 						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
 						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
 						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
-											
+
 						var nl = new Array(e.rl.length),
-							ix = 0,						
-							sl;					
+							ix = 0,
+							sl;
 						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
 						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
 						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
-						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
 						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
-						sl = nl[0];									
-						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
-						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
 						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
-					}				
-					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					}
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));
 					document.getElementById(e.c).height = newh+"px";
-					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";
 				} catch(e){
 					console.log("Failure at Presize of Slider:" + e)
-				}					   
+				}
 			//});
 		  };</script>
 <noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>		<style type="text/css">
@@ -83,7 +84,7 @@
 
 	<body class="home page-template page-template--- page-template-public page-template-views page-template-revslider-page-template page-template---publicviewsrevslider-page-template-php page page-id-27">
 				<div>
-			
+
 <div class="wp-block-themepunch-revslider revslider" data-modal="false" data-slidertitle="Big Bold Menu1" style="">
 			<!-- START Big Bold Menu1 REVOLUTION SLIDER 6.2.22 --><p class="rs-p-wp-fix"></p>
 			<rs-module-wrap id="rev_slider_6_1_wrapper" data-source="gallery" style="background:transparent;padding:0;position:fixed;top:0px;height:0px">
@@ -94,7 +95,7 @@
 <!--						--><rs-zone id="rrzm_6" class="rev_row_zone_middle" style="z-index: 14;"><!--
 
 								--><rs-row
-									id="slider-6-slide-6-layer-8" 
+									id="slider-6-slide-6-layer-8"
 									class="rs-noevents"
 									data-type="row"
 									data-xy="xo:50px;yo:50px;"
@@ -106,7 +107,7 @@
 									style="z-index:1;"
 								><!--
 									--><rs-column
-										id="slider-6-slide-6-layer-9" 
+										id="slider-6-slide-6-layer-9"
 										class="rs-noevents"
 										data-type="column"
 										data-xy="xo:50px;yo:50px;"
@@ -117,7 +118,7 @@
 										style="z-index:2;background-color:#ffffff;width:100%;"
 									><!--
 										--><rs-layer
-											id="slider-6-slide-6-layer-12" 
+											id="slider-6-slide-6-layer-12"
 											data-type="text"
 											data-color="#000000"
 											data-text="w:normal;s:100,70,50,40;l:150,120,100,80;fw:600;a:center;"
@@ -131,11 +132,11 @@
 											data-frame_999="st:w;sR:8200;"
 											data-frame_hover="c:#fff;bgc:#ff008e;boc:#ff008e;bos:solid;bow:1px,0,0,0;sp:10ms;"
 											style="z-index:4;background-color:#ffffff;font-family:Poppins;cursor:pointer;"
-										>About 
+										>About
 										</rs-layer><!--
 
 										--><rs-layer
-											id="slider-6-slide-6-layer-13" 
+											id="slider-6-slide-6-layer-13"
 											data-type="text"
 											data-color="#000000"
 											data-text="w:normal;s:100,70,50,40;l:150,120,100,80;fw:600;a:center;"
@@ -149,11 +150,11 @@
 											data-frame_999="st:w;sR:8200;"
 											data-frame_hover="c:#fff;bgc:#ff008e;boc:#ff008e;bos:solid;bow:1px,0,0,0;sp:10ms;"
 											style="z-index:5;background-color:#ffffff;font-family:Poppins;cursor:pointer;"
-										>News 
+										>News
 										</rs-layer><!--
 
 										--><rs-layer
-											id="slider-6-slide-6-layer-14" 
+											id="slider-6-slide-6-layer-14"
 											data-type="text"
 											data-color="#000000"
 											data-text="w:normal;s:100,70,50,40;l:150,120,100,80;fw:600;a:center;"
@@ -167,11 +168,11 @@
 											data-frame_999="st:w;sR:8200;"
 											data-frame_hover="c:#fff;bgc:#ff008e;boc:#ff008e;bos:solid;bow:1px,0,0,0;sp:10ms;"
 											style="z-index:6;background-color:#ffffff;font-family:Poppins;cursor:pointer;"
-										>Highlight 
+										>Highlight
 										</rs-layer><!--
 
 										--><rs-layer
-											id="slider-6-slide-6-layer-15" 
+											id="slider-6-slide-6-layer-15"
 											data-type="text"
 											data-color="#000000"
 											data-text="w:normal;s:100,70,50,40;l:150,120,100,80;fw:600;a:center;"
@@ -185,14 +186,14 @@
 											data-frame_999="st:w;sR:8200;"
 											data-frame_hover="c:#fff;bgc:#ff008e;boc:#ff008e;bos:solid;bow:1px,0,1px,0;sp:10ms;"
 											style="z-index:7;background-color:#ffffff;font-family:Poppins;cursor:pointer;"
-										>Contact 
+										>Contact
 										</rs-layer><!--
 									--></rs-column><!--
 								--></rs-row><!--
 							--></rs-zone><!--
 
 							--><rs-group
-								id="slider-6-slide-6-layer-2" 
+								id="slider-6-slide-6-layer-2"
 								class="rs-noevents"
 								data-type="group"
 								data-xy="x:r;"
@@ -209,7 +210,7 @@
 								style="z-index:20;cursor:pointer;"
 							><!--
 								--><rs-layer
-									id="slider-6-slide-6-layer-0" 
+									id="slider-6-slide-6-layer-0"
 									data-type="shape"
 									data-xy="x:c;y:m;"
 									data-dim="w:100px;h:100px;"
@@ -220,11 +221,11 @@
 									data-frame_999="st:w;sR:8200;"
 									data-frame_hover="sX:0.9;sY:0.9;bgc:#000;boc:#fff;bow:0px,0px,0px,0px;sp:300ms;e:power1.inOut;gra:0%;bri:100%;blu:0px;"
 									style="z-index:16;background-color:#000000;cursor:pointer;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-6-slide-6-layer-1" 
+									id="slider-6-slide-6-layer-1"
 									class="rs-noevents"
 									data-type="shape"
 									data-xy="x:c;y:m;"
@@ -239,11 +240,11 @@
 									data-frame_2="sX:0;oX:50%;oY:50%;oZ:0;tp:600px;st:a;sp:500;sR:500;"
 									data-frame_3="sX:1;oX:50%;oY:50%;oZ:0;tp:600px;st:a;sp:500;sR:500;"
 									style="z-index:18;background-color:#ffffff;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-6-slide-6-layer-3" 
+									id="slider-6-slide-6-layer-3"
 									class="rs-noevents"
 									data-type="shape"
 									data-xy="x:c;y:m;yo:-10px;"
@@ -258,11 +259,11 @@
 									data-frame_2="y:10px;rZ:45deg;oX:50%;oY:50%;oZ:0;tp:600px;st:a;sp:500;sR:500;"
 									data-frame_3="y:0px;rZ:0deg;oX:50%;oY:50%;oZ:0;tp:600px;st:a;sp:500;sR:500;"
 									style="z-index:19;background-color:#ffffff;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-6-slide-6-layer-4" 
+									id="slider-6-slide-6-layer-4"
 									class="rs-noevents"
 									data-type="shape"
 									data-xy="x:c;y:m;yo:10px;"
@@ -277,12 +278,12 @@
 									data-frame_2="y:-10px;rZ:-45deg;oX:50%;oY:50%;oZ:0;tp:600px;st:a;sp:500;sR:500;"
 									data-frame_3="y:0px;rZ:0deg;oX:50%;oY:50%;oZ:0;tp:600px;st:a;sp:500;sR:500;"
 									style="z-index:17;background-color:#ffffff;"
-								> 
+								>
 								</rs-layer><!--
 							--></rs-group><!--
 
 							--><rs-layer
-								id="slider-6-slide-6-layer-16" 
+								id="slider-6-slide-6-layer-16"
 								class="rs-noevents"
 								data-type="shape"
 								data-xy="x:c;y:m;"
@@ -294,7 +295,7 @@
 								data-frame_1="sp:500;st:a;"
 								data-frame_999="x:right;y:0px;o:1;st:w;sR:8500;"
 								style="z-index:12;background-color:#ffffff;"
-							> 
+							>
 							</rs-layer><!--
 -->						</rs-slide>
 					</rs-slides>
@@ -331,13 +332,13 @@
 								},
 							});
 						}
-						
+
 					});
 					} // End of RevInitScript
 				var once_revslider61 = false;
 				if (document.readyState === "loading") {document.addEventListener('readystatechange',function() { if((document.readyState === "interactive" || document.readyState === "complete") && !once_revslider61 ) { once_revslider61 = true; revinit_revslider61();}});} else {once_revslider61 = true; revinit_revslider61();}
 				</script>
-				
+
 			</rs-module-wrap>
 			<!-- END REVOLUTION SLIDER -->
 </div>
@@ -353,7 +354,7 @@
 							<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Slide" title="home" data-bg="c:#ffffff;" data-parallax="off" class="rev-slidebg" data-no-retina data-lazy-src="//jojekyll.on.fleek.co/wp-content/plugins/revslider/public/assets/assets/transparent.png"><noscript><img src="//jojekyll.on.fleek.co/wp-content/plugins/revslider/public/assets/assets/transparent.png" alt="Slide" title="home" data-bg="c:#ffffff;" data-parallax="off" class="rev-slidebg" data-no-retina></noscript>
 <!--
 							--><rs-group
-								id="slider-4-slide-4-layer-11" 
+								id="slider-4-slide-4-layer-11"
 								data-type="group"
 								data-xy="x:c;"
 								data-dim="w:2000px;h:100%;"
@@ -365,7 +366,7 @@
 								style="z-index:21;"
 							><!--
 								--><rs-layer
-									id="slider-4-slide-4-layer-0" 
+									id="slider-4-slide-4-layer-0"
 									data-type="shape"
 									data-xy="x:c;"
 									data-dim="w:1px;h:100%;"
@@ -375,11 +376,11 @@
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:20;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-4-slide-4-layer-1" 
+									id="slider-4-slide-4-layer-1"
 									data-type="shape"
 									data-xy="x:c;xo:-200px,-150px,-100px,-75px;"
 									data-dim="w:1px;h:100%;"
@@ -389,11 +390,11 @@
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:19;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-4-slide-4-layer-2" 
+									id="slider-4-slide-4-layer-2"
 									data-type="shape"
 									data-xy="x:c;xo:-400px,-300px,-200px,-150px;"
 									data-dim="w:1px;h:100%;"
@@ -403,11 +404,11 @@
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:18;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-4-slide-4-layer-3" 
+									id="slider-4-slide-4-layer-3"
 									data-type="shape"
 									data-xy="x:c;xo:-600px,-450px,-300px,-225px;"
 									data-dim="w:1px;h:100%;"
@@ -417,11 +418,11 @@
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:17;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-4-slide-4-layer-4" 
+									id="slider-4-slide-4-layer-4"
 									data-type="shape"
 									data-xy="x:c;xo:-800px,-600px,-400px,-300px;"
 									data-dim="w:1px;h:100%;"
@@ -431,11 +432,11 @@
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:16;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-4-slide-4-layer-5" 
+									id="slider-4-slide-4-layer-5"
 									data-type="shape"
 									data-xy="x:c;xo:-1000px,-750px,-500px,-375px;"
 									data-dim="w:1px;h:100%;"
@@ -445,11 +446,11 @@
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:15;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-4-slide-4-layer-6" 
+									id="slider-4-slide-4-layer-6"
 									data-type="shape"
 									data-xy="x:c;xo:200px,150px,100px,75px;"
 									data-dim="w:1px;h:100%;"
@@ -459,11 +460,11 @@
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:13;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-4-slide-4-layer-7" 
+									id="slider-4-slide-4-layer-7"
 									data-type="shape"
 									data-xy="x:c;xo:400px,300px,200px,150px;"
 									data-dim="w:1px;h:100%;"
@@ -473,11 +474,11 @@
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:12;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-4-slide-4-layer-8" 
+									id="slider-4-slide-4-layer-8"
 									data-type="shape"
 									data-xy="x:c;xo:600px,450px,300px,225px;"
 									data-dim="w:1px;h:100%;"
@@ -487,11 +488,11 @@
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:11;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-4-slide-4-layer-9" 
+									id="slider-4-slide-4-layer-9"
 									data-type="shape"
 									data-xy="x:c;xo:800px,600px,400px,300px;"
 									data-dim="w:1px;h:100%;"
@@ -501,11 +502,11 @@
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:10;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-4-slide-4-layer-10" 
+									id="slider-4-slide-4-layer-10"
 									data-type="shape"
 									data-xy="x:c;xo:1000px,750px,500px,375px;"
 									data-dim="w:1px;h:100%;"
@@ -515,11 +516,11 @@
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:9;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-4-slide-4-layer-21" 
+									id="slider-4-slide-4-layer-21"
 									data-type="shape"
 									data-xy="x:c;xo:-1200px,-900px,-600px,-450px;"
 									data-dim="w:1px;h:100%;"
@@ -529,11 +530,11 @@
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:14;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-4-slide-4-layer-22" 
+									id="slider-4-slide-4-layer-22"
 									data-type="shape"
 									data-xy="x:c;xo:1200px,900px,600px,450px;"
 									data-dim="w:1px;h:100%;"
@@ -543,12 +544,12 @@
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:8;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 							--></rs-group><!--
 
 							--><rs-layer
-								id="slider-4-slide-4-layer-12" 
+								id="slider-4-slide-4-layer-12"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;yo:220px,200px,150px,130px;"
@@ -564,11 +565,11 @@
 								style="z-index:29;font-family:Poppins;"
 							>Big &<br/>
 Bold<br/>
-Header 
+Header
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-4-slide-4-layer-13" 
+								id="slider-4-slide-4-layer-13"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;yo:110px,110px,80px,80px;"
@@ -582,11 +583,11 @@ Header
 								data-frame_1="st:300;sp:1000;sR:300;"
 								data-frame_999="st:w;sR:7700;"
 								style="z-index:30;font-family:Poppins;"
-							>Welcome to the 
+							>Welcome to the
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-4-slide-4-layer-14" 
+								id="slider-4-slide-4-layer-14"
 								class="rs-pxl-14"
 								data-type="shape"
 								data-xy="x:c;y:b;yo:200px,150px,100px,75px;"
@@ -598,11 +599,11 @@ Header
 								data-frame_1="st:300;sp:1500;sR:300;"
 								data-frame_999="st:w;sR:7200;"
 								style="z-index:22;background-color:#eeeeee;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-4-slide-4-layer-15" 
+								id="slider-4-slide-4-layer-15"
 								class="rs-pxl-6"
 								data-type="shape"
 								data-xy="x:c;xo:-700px,-375px,-250px,-188px;y:b;"
@@ -614,11 +615,11 @@ Header
 								data-frame_1="st:400;sp:1500;sR:400;"
 								data-frame_999="st:w;sR:7100;"
 								style="z-index:24;background-color:#000000;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-4-slide-4-layer-16" 
+								id="slider-4-slide-4-layer-16"
 								data-type="shape"
 								data-xy="x:c;xo:300px,225px,150px,113px;y:b;"
 								data-dim="w:199px,149px,99px,75px;h:200px,150px,100px,75px;"
@@ -631,11 +632,11 @@ Header
 								data-frame_999="st:w;sR:7000;"
 								data-frame_hover="sX:0.9;sY:0.9;bgc:#ff008e;boc:#fff;bos:none;bow:10px,10px,10px,10px;e:power1.inOut;bri:100%;"
 								style="z-index:26;background-color:#ff008e;cursor:pointer;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-4-slide-4-layer-17" 
+								id="slider-4-slide-4-layer-17"
 								data-type="shape"
 								data-xy="x:c;xo:500px,375px,250px,188px;y:b;yo:200px,150px,100px,75px;"
 								data-dim="w:200px,150px,100px,75px;h:200px,150px,100px,75px;"
@@ -646,11 +647,11 @@ Header
 								data-frame_1="st:400;sp:1500;sR:400;"
 								data-frame_999="st:w;sR:7100;"
 								style="z-index:25;background-color:#000000;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-4-slide-4-layer-18" 
+								id="slider-4-slide-4-layer-18"
 								class="rs-pxl-2"
 								data-type="shape"
 								data-xy="x:c;xo:700px,525px,350px,263px;y:b;"
@@ -662,11 +663,11 @@ Header
 								data-frame_1="st:300;sp:1500;sR:300;"
 								data-frame_999="st:w;sR:7200;"
 								style="z-index:23;background-color:#eeeeee;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-4-slide-4-layer-19" 
+								id="slider-4-slide-4-layer-19"
 								class="rs-noevents"
 								data-type="text"
 								data-xy="x:c;xo:300px,225px,150px,110px;y:b;yo:100px,75px,50px,35px;"
@@ -679,11 +680,11 @@ Header
 								data-frame_1="st:1500;sp:1000;sR:1500;"
 								data-frame_999="st:w;sR:6500;"
 								style="z-index:28;font-family:Poppins;"
-							>Continue 
+							>Continue
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-4-slide-4-layer-20" 
+								id="slider-4-slide-4-layer-20"
 								class="rs-noevents"
 								data-type="text"
 								data-xy="x:c;xo:300px,225px,150px,113px;y:b;yo:70px,45px,0,0;"
@@ -700,7 +701,7 @@ Header
 								data-tloop="t:frame_3;"
 								style="z-index:27;font-family:Poppins;"
 							>
-<i class="material-icons">keyboard_arrow_down</i> 
+<i class="material-icons">keyboard_arrow_down</i>
 							</rs-layer><!--
 -->						</rs-slide>
 					</rs-slides>
@@ -741,14 +742,14 @@ Header
 								},
 							});
 						}
-						
+
 					});
 					} // End of RevInitScript
 				var once_revslider42 = false;
 				if (document.readyState === "loading") {document.addEventListener('readystatechange',function() { if((document.readyState === "interactive" || document.readyState === "complete") && !once_revslider42 ) { once_revslider42 = true; revinit_revslider42();}});} else {once_revslider42 = true; revinit_revslider42();}
 				</script>
-				
-				
+
+
 			</rs-module-wrap>
 			<!-- END REVOLUTION SLIDER -->
 </div>
@@ -764,7 +765,7 @@ Header
 							<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Slide" title="home" data-bg="c:#ffffff;" data-parallax="off" class="rev-slidebg" data-no-retina data-lazy-src="//jojekyll.on.fleek.co/wp-content/plugins/revslider/public/assets/assets/transparent.png"><noscript><img src="//jojekyll.on.fleek.co/wp-content/plugins/revslider/public/assets/assets/transparent.png" alt="Slide" title="home" data-bg="c:#ffffff;" data-parallax="off" class="rev-slidebg" data-no-retina></noscript>
 <!--
 							--><rs-group
-								id="slider-2-slide-2-layer-11" 
+								id="slider-2-slide-2-layer-11"
 								data-type="group"
 								data-xy="x:c;"
 								data-dim="w:2400px;h:100%;"
@@ -776,7 +777,7 @@ Header
 								style="z-index:21;"
 							><!--
 								--><rs-layer
-									id="slider-2-slide-2-layer-0" 
+									id="slider-2-slide-2-layer-0"
 									data-type="shape"
 									data-xy="x:c;"
 									data-dim="w:1px;h:100%;"
@@ -786,11 +787,11 @@ Header
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:20;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-2-slide-2-layer-1" 
+									id="slider-2-slide-2-layer-1"
 									data-type="shape"
 									data-xy="x:c;xo:-200px,-150px,-100px,-75px;"
 									data-dim="w:1px;h:100%;"
@@ -800,11 +801,11 @@ Header
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:19;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-2-slide-2-layer-2" 
+									id="slider-2-slide-2-layer-2"
 									data-type="shape"
 									data-xy="x:c;xo:-400px,-300px,-200px,-150px;"
 									data-dim="w:1px;h:100%;"
@@ -814,11 +815,11 @@ Header
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:18;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-2-slide-2-layer-3" 
+									id="slider-2-slide-2-layer-3"
 									data-type="shape"
 									data-xy="x:c;xo:-600px,-450px,-300px,-225px;"
 									data-dim="w:1px;h:100%;"
@@ -828,11 +829,11 @@ Header
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:17;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-2-slide-2-layer-4" 
+									id="slider-2-slide-2-layer-4"
 									data-type="shape"
 									data-xy="x:c;xo:-800px,-600px,-400px,-300px;"
 									data-dim="w:1px;h:100%;"
@@ -842,11 +843,11 @@ Header
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:16;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-2-slide-2-layer-5" 
+									id="slider-2-slide-2-layer-5"
 									data-type="shape"
 									data-xy="x:c;xo:-1000px,-750px,-500px,-375px;"
 									data-dim="w:1px;h:100%;"
@@ -856,11 +857,11 @@ Header
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:15;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-2-slide-2-layer-6" 
+									id="slider-2-slide-2-layer-6"
 									data-type="shape"
 									data-xy="x:c;xo:200px,150px,100px,75px;"
 									data-dim="w:1px;h:100%;"
@@ -870,11 +871,11 @@ Header
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:13;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-2-slide-2-layer-7" 
+									id="slider-2-slide-2-layer-7"
 									data-type="shape"
 									data-xy="x:c;xo:400px,300px,200px,150px;"
 									data-dim="w:1px;h:100%;"
@@ -884,11 +885,11 @@ Header
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:12;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-2-slide-2-layer-8" 
+									id="slider-2-slide-2-layer-8"
 									data-type="shape"
 									data-xy="x:c;xo:600px,450px,300px,225px;"
 									data-dim="w:1px;h:100%;"
@@ -898,11 +899,11 @@ Header
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:11;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-2-slide-2-layer-9" 
+									id="slider-2-slide-2-layer-9"
 									data-type="shape"
 									data-xy="x:c;xo:800px,600px,400px,300px;"
 									data-dim="w:1px;h:100%;"
@@ -912,11 +913,11 @@ Header
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:10;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-2-slide-2-layer-10" 
+									id="slider-2-slide-2-layer-10"
 									data-type="shape"
 									data-xy="x:c;xo:1000px,750px,500px,375px;"
 									data-dim="w:1px;h:100%;"
@@ -926,11 +927,11 @@ Header
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:9;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-2-slide-2-layer-21" 
+									id="slider-2-slide-2-layer-21"
 									data-type="shape"
 									data-xy="x:c;xo:-1200px,-900px,-600px,-450px;"
 									data-dim="w:1px;h:100%;"
@@ -940,11 +941,11 @@ Header
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:14;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-2-slide-2-layer-22" 
+									id="slider-2-slide-2-layer-22"
 									data-type="shape"
 									data-xy="x:c;xo:1200px,900px,600px,450px;"
 									data-dim="w:1px;h:100%;"
@@ -954,12 +955,12 @@ Header
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:8;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 							--></rs-group><!--
 
 							--><rs-layer
-								id="slider-2-slide-2-layer-12" 
+								id="slider-2-slide-2-layer-12"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;xo:-200px,-150px,-100px,-40px;yo:250px,180px,120px,110px;"
@@ -975,11 +976,11 @@ Header
 								style="z-index:33;font-family:Poppins;"
 							>Symetric<br/>
 Beautiful<br/>
-Content 
+Content
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-2-slide-2-layer-13" 
+								id="slider-2-slide-2-layer-13"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;xo:-200px,-150px,-100px,-40px;yo:440px,359px,260px,250px;"
@@ -992,12 +993,12 @@ Content
 								data-frame_1="st:400;sp:1000;sR:400;"
 								data-frame_999="st:w;sR:7600;"
 								style="z-index:32;font-family:Poppins;"
-							>Man bun snackwave activated 
-charcoal unicorn neutra man braid viral bicycle rights keytar.  
+							>Man bun snackwave activated
+charcoal unicorn neutra man braid viral bicycle rights keytar.
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-2-slide-2-layer-14" 
+								id="slider-2-slide-2-layer-14"
 								class="rs-pxl-14"
 								data-type="shape"
 								data-xy="x:c;xo:-300px,-225px,-150px,-113px;y:b;yo:200px,150px,240px,290px;"
@@ -1009,11 +1010,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:300;sp:1500;sR:300;"
 								data-frame_999="st:w;sR:7200;"
 								style="z-index:22;background-color:#eeeeee;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-2-slide-2-layer-15" 
+								id="slider-2-slide-2-layer-15"
 								class="rs-pxl-6"
 								data-type="shape"
 								data-xy="x:c;xo:-700px,-375px,-250px,-188px;"
@@ -1025,11 +1026,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:400;sp:1500;sR:400;"
 								data-frame_999="st:w;sR:7100;"
 								style="z-index:24;background-color:#000000;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-2-slide-2-layer-16" 
+								id="slider-2-slide-2-layer-16"
 								data-type="shape"
 								data-xy="x:c;xo:-500px,-375px,-250px,-187px;y:b;"
 								data-dim="w:200px,150px,100px,75px;h:200px,150px,100px,75px;"
@@ -1040,11 +1041,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:500;sp:1500;sR:500;"
 								data-frame_999="st:w;sR:7000;"
 								style="z-index:26;background-color:#ff008e;cursor:pointer;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-2-slide-2-layer-17" 
+								id="slider-2-slide-2-layer-17"
 								class="rs-pxl-14"
 								data-type="shape"
 								data-xy="x:c;xo:300px,225px,150px,112px;yo:400px,280px,280px,351px;"
@@ -1056,11 +1057,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:400;sp:1500;sR:400;"
 								data-frame_999="st:w;sR:7100;"
 								style="z-index:25;background-color:#000000;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-2-slide-2-layer-18" 
+								id="slider-2-slide-2-layer-18"
 								class="rs-pxl-12"
 								data-type="shape"
 								data-xy="x:c;xo:700px,525px,350px,188px;y:b;"
@@ -1072,11 +1073,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:300;sp:1500;sR:300;"
 								data-frame_999="st:w;sR:7200;"
 								style="z-index:23;background-color:#eeeeee;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-2-slide-2-layer-19" 
+								id="slider-2-slide-2-layer-19"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;xo:-200px,-152px,-100px,-40px;yo:540px,490px,400px,390px;"
@@ -1091,11 +1092,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_999="st:w;sR:7500;"
 								data-frame_hover="c:#000;bos:solid;bow:0,0,0,20px;"
 								style="z-index:31;font-family:Roboto;cursor:pointer;"
-							><i class="material-icons">arrow_forward</i> 
+							><i class="material-icons">arrow_forward</i>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-2-slide-2-layer-20" 
+								id="slider-2-slide-2-layer-20"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;xo:200px,150px,99px,37px;yo:680px,540px,460px,450px;"
@@ -1111,11 +1112,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								style="z-index:30;font-family:Poppins;"
 							>Present<br/>
 In A Readable<br/>
-Way 
+Way
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-2-slide-2-layer-23" 
+								id="slider-2-slide-2-layer-23"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;xo:200px,150px,100px,37px;yo:870px,719px,600px,590px;"
@@ -1128,11 +1129,11 @@ Way
 								data-frame_1="st:400;sp:1000;sR:400;"
 								data-frame_999="st:w;sR:7600;"
 								style="z-index:29;font-family:Poppins;"
-							>Listicle cornhole hoodie lyft, unicorn enamel pin knausgaard tumblr mlkshk. Hella helvetica forage. 
+							>Listicle cornhole hoodie lyft, unicorn enamel pin knausgaard tumblr mlkshk. Hella helvetica forage.
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-2-slide-2-layer-24" 
+								id="slider-2-slide-2-layer-24"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;xo:200px,148px,100px,37px;yo:1000px,850px,740px,730px;"
@@ -1147,11 +1148,11 @@ Way
 								data-frame_999="st:w;sR:7500;"
 								data-frame_hover="c:#000;bos:solid;bow:0,0,0,20px;"
 								style="z-index:28;font-family:Roboto;cursor:pointer;"
-							><i class="material-icons">arrow_forward</i> 
+							><i class="material-icons">arrow_forward</i>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-2-slide-2-layer-25" 
+								id="slider-2-slide-2-layer-25"
 								class="rs-pxl-2"
 								data-type="shape"
 								data-xy="x:c;xo:700px,525px,350px,188px;"
@@ -1163,7 +1164,7 @@ Way
 								data-frame_1="st:300;sp:1500;sR:300;"
 								data-frame_999="st:w;sR:7200;"
 								style="z-index:27;background-color:#eeeeee;"
-							> 
+							>
 							</rs-layer><!--
 -->						</rs-slide>
 					</rs-slides>
@@ -1203,7 +1204,7 @@ Way
 								},
 							});
 						}
-						
+
 					});
 					} // End of RevInitScript
 				var once_about = false;
@@ -1225,7 +1226,7 @@ Way
 <!--						--><rs-zone id="rrzt_1" class="rev_row_zone_top" style="z-index: 49;"><!--
 
 								--><rs-row
-									id="slider-1-slide-1-layer-26" 
+									id="slider-1-slide-1-layer-26"
 									data-type="row"
 									data-xy="xo:50px;yo:50px;"
 									data-rsp_bd="off"
@@ -1234,7 +1235,7 @@ Way
 									style="z-index:1;"
 								><!--
 									--><rs-column
-										id="slider-1-slide-1-layer-27" 
+										id="slider-1-slide-1-layer-27"
 										data-type="column"
 										data-xy="xo:50px;yo:50px;"
 										data-text="a:left,left,center,center;"
@@ -1247,7 +1248,7 @@ Way
 										style="z-index:2;cursor:pointer;width:100%;"
 									><!--
 										--><rs-layer
-											id="slider-1-slide-1-layer-12" 
+											id="slider-1-slide-1-layer-12"
 											data-type="text"
 											data-color="#000000"
 											data-xy="xo:0,-150px,-100px,-40px;yo:0,180px,120px,110px;"
@@ -1263,11 +1264,11 @@ Way
 											data-frame_2="y:0px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:350;c:#ffffff;"
 											data-frame_3="y:0px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:400;c:#000000;"
 											style="z-index:3;font-family:Poppins;"
-										>Symetric Beautiful Content 
+										>Symetric Beautiful Content
 										</rs-layer><!--
 
 										--><rs-layer
-											id="slider-1-slide-1-layer-13" 
+											id="slider-1-slide-1-layer-13"
 											data-type="text"
 											data-color="#000000"
 											data-xy="x:c;xo:0,-150px,-100px,-40px;yo:0,359px,260px,250px;"
@@ -1284,12 +1285,12 @@ Way
 											data-frame_2="oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:400;c:#ffffff;"
 											data-frame_3="oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:400;c:#000000;"
 											style="z-index:4;font-family:Poppins;"
-										>Man bun snackwave activated 
-charcoal unicorn neutra man braid viral bicycle rights keytar.  
+										>Man bun snackwave activated
+charcoal unicorn neutra man braid viral bicycle rights keytar.
 										</rs-layer><!--
 
 										--><rs-layer
-											id="slider-1-slide-1-layer-19" 
+											id="slider-1-slide-1-layer-19"
 											data-type="text"
 											data-color="#000000"
 											data-xy="x:c;xo:0,-152px,-100px,-40px;yo:0,490px,400px,390px;"
@@ -1306,12 +1307,12 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 											data-frame_2="x:30px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:300;c:#ffffff;"
 											data-frame_3="x:0px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:390;c:#000000;"
 											style="z-index:5;font-family:Roboto;cursor:pointer;"
-										><i class="material-icons">arrow_forward</i> 
+										><i class="material-icons">arrow_forward</i>
 										</rs-layer><!--
 									--></rs-column><!--
 
 									--><rs-column
-										id="slider-1-slide-1-layer-33" 
+										id="slider-1-slide-1-layer-33"
 										data-type="column"
 										data-xy="xo:50px;yo:50px;"
 										data-text="a:left,left,center,center;"
@@ -1324,7 +1325,7 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 										style="z-index:6;cursor:pointer;width:100%;"
 									><!--
 										--><rs-layer
-											id="slider-1-slide-1-layer-34" 
+											id="slider-1-slide-1-layer-34"
 											data-type="text"
 											data-color="#000000"
 											data-xy="xo:0,-150px,-100px,-40px;yo:0,180px,120px,110px;"
@@ -1340,11 +1341,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 											data-frame_2="y:0px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:350;c:#ffffff;"
 											data-frame_3="y:0px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:400;c:#000000;"
 											style="z-index:7;font-family:Poppins;"
-										>Present In A Readable Way 
+										>Present In A Readable Way
 										</rs-layer><!--
 
 										--><rs-layer
-											id="slider-1-slide-1-layer-35" 
+											id="slider-1-slide-1-layer-35"
 											data-type="text"
 											data-color="#000000"
 											data-xy="x:c;xo:0,-150px,-100px,-40px;yo:0,359px,260px,250px;"
@@ -1361,11 +1362,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 											data-frame_2="oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:400;c:#ffffff;"
 											data-frame_3="oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:400;c:#000000;"
 											style="z-index:8;font-family:Poppins;"
-										>Health goth master cleanse polaroid lumbersexual twee brunch. 3 wolf moon offal church-key  
+										>Health goth master cleanse polaroid lumbersexual twee brunch. 3 wolf moon offal church-key
 										</rs-layer><!--
 
 										--><rs-layer
-											id="slider-1-slide-1-layer-36" 
+											id="slider-1-slide-1-layer-36"
 											data-type="text"
 											data-color="#000000"
 											data-xy="x:c;xo:0,-152px,-100px,-40px;yo:0,490px,400px,390px;"
@@ -1382,12 +1383,12 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 											data-frame_2="x:30px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:300;c:#ffffff;"
 											data-frame_3="x:0px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:390;c:#000000;"
 											style="z-index:9;font-family:Roboto;cursor:pointer;"
-										><i class="material-icons">arrow_forward</i> 
+										><i class="material-icons">arrow_forward</i>
 										</rs-layer><!--
 									--></rs-column><!--
 
 									--><rs-column
-										id="slider-1-slide-1-layer-37" 
+										id="slider-1-slide-1-layer-37"
 										data-type="column"
 										data-xy="xo:50px;yo:50px;"
 										data-text="a:left,left,center,center;"
@@ -1400,7 +1401,7 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 										style="z-index:10;cursor:pointer;width:100%;"
 									><!--
 										--><rs-layer
-											id="slider-1-slide-1-layer-38" 
+											id="slider-1-slide-1-layer-38"
 											data-type="text"
 											data-color="#000000"
 											data-xy="xo:0,-150px,-100px,-40px;yo:0,180px,120px,110px;"
@@ -1416,11 +1417,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 											data-frame_2="y:0px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:350;c:#ffffff;"
 											data-frame_3="y:0px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:400;c:#000000;"
 											style="z-index:11;font-family:Poppins;"
-										>Your Clients Will Love This Experience 
+										>Your Clients Will Love This Experience
 										</rs-layer><!--
 
 										--><rs-layer
-											id="slider-1-slide-1-layer-39" 
+											id="slider-1-slide-1-layer-39"
 											data-type="text"
 											data-color="#000000"
 											data-xy="x:c;xo:0,-150px,-100px,-40px;yo:0,359px,260px,250px;"
@@ -1437,11 +1438,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 											data-frame_2="oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:400;c:#ffffff;"
 											data-frame_3="oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:400;c:#000000;"
 											style="z-index:12;font-family:Poppins;"
-										>Umami four dollar toast typewriter normcore, four loko ugh lomo deep v fingerstache. 
+										>Umami four dollar toast typewriter normcore, four loko ugh lomo deep v fingerstache.
 										</rs-layer><!--
 
 										--><rs-layer
-											id="slider-1-slide-1-layer-40" 
+											id="slider-1-slide-1-layer-40"
 											data-type="text"
 											data-color="#000000"
 											data-xy="x:c;xo:0,-152px,-100px,-40px;yo:0,490px,400px,390px;"
@@ -1458,13 +1459,13 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 											data-frame_2="x:30px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:300;c:#ffffff;"
 											data-frame_3="x:0px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:390;c:#000000;"
 											style="z-index:13;font-family:Roboto;cursor:pointer;"
-										><i class="material-icons">arrow_forward</i> 
+										><i class="material-icons">arrow_forward</i>
 										</rs-layer><!--
 									--></rs-column><!--
 								--></rs-row><!--
 
 								--><rs-row
-									id="slider-1-slide-1-layer-45" 
+									id="slider-1-slide-1-layer-45"
 									data-type="row"
 									data-xy="xo:50px;yo:50px;"
 									data-rsp_bd="off"
@@ -1473,7 +1474,7 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									style="z-index:14;"
 								><!--
 									--><rs-column
-										id="slider-1-slide-1-layer-46" 
+										id="slider-1-slide-1-layer-46"
 										data-type="column"
 										data-xy="xo:50px;yo:50px;"
 										data-text="a:left,left,center,center;"
@@ -1486,7 +1487,7 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 										style="z-index:15;cursor:pointer;width:100%;"
 									><!--
 										--><rs-layer
-											id="slider-1-slide-1-layer-47" 
+											id="slider-1-slide-1-layer-47"
 											data-type="text"
 											data-color="#000000"
 											data-xy="xo:0,-150px,-100px,-40px;yo:0,180px,120px,110px;"
@@ -1502,11 +1503,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 											data-frame_2="y:0px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:350;c:#ffffff;"
 											data-frame_3="y:0px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:400;c:#000000;"
 											style="z-index:16;font-family:Poppins;"
-										>What You See Here Could Be On Your Site In 5 Minutes 
+										>What You See Here Could Be On Your Site In 5 Minutes
 										</rs-layer><!--
 
 										--><rs-layer
-											id="slider-1-slide-1-layer-48" 
+											id="slider-1-slide-1-layer-48"
 											data-type="text"
 											data-color="#000000"
 											data-xy="x:c;xo:0,-150px,-100px,-40px;yo:0,359px,260px,250px;"
@@ -1523,12 +1524,12 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 											data-frame_2="oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:400;c:#ffffff;"
 											data-frame_3="oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:400;c:#000000;"
 											style="z-index:17;font-family:Poppins;"
-										>Man bun snackwave activated 
-charcoal unicorn neutra man braid viral bicycle rights keytar.  
+										>Man bun snackwave activated
+charcoal unicorn neutra man braid viral bicycle rights keytar.
 										</rs-layer><!--
 
 										--><rs-layer
-											id="slider-1-slide-1-layer-49" 
+											id="slider-1-slide-1-layer-49"
 											data-type="text"
 											data-color="#000000"
 											data-xy="x:c;xo:0,-152px,-100px,-40px;yo:0,490px,400px,390px;"
@@ -1545,12 +1546,12 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 											data-frame_2="x:30px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:300;c:#ffffff;"
 											data-frame_3="x:0px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:390;c:#000000;"
 											style="z-index:18;font-family:Roboto;cursor:pointer;"
-										><i class="material-icons">arrow_forward</i> 
+										><i class="material-icons">arrow_forward</i>
 										</rs-layer><!--
 									--></rs-column><!--
 
 									--><rs-column
-										id="slider-1-slide-1-layer-50" 
+										id="slider-1-slide-1-layer-50"
 										data-type="column"
 										data-xy="xo:50px;yo:50px;"
 										data-text="a:left,left,center,center;"
@@ -1563,7 +1564,7 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 										style="z-index:19;cursor:pointer;width:100%;"
 									><!--
 										--><rs-layer
-											id="slider-1-slide-1-layer-51" 
+											id="slider-1-slide-1-layer-51"
 											data-type="text"
 											data-color="#000000"
 											data-xy="xo:0,-150px,-100px,-40px;yo:0,180px,120px,110px;"
@@ -1579,11 +1580,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 											data-frame_2="y:0px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:350;c:#ffffff;"
 											data-frame_3="y:0px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:400;c:#000000;"
 											style="z-index:20;font-family:Poppins;"
-										>A Whole New Interpretation Of Web Design 
+										>A Whole New Interpretation Of Web Design
 										</rs-layer><!--
 
 										--><rs-layer
-											id="slider-1-slide-1-layer-52" 
+											id="slider-1-slide-1-layer-52"
 											data-type="text"
 											data-color="#000000"
 											data-xy="x:c;xo:0,-150px,-100px,-40px;yo:0,359px,260px,250px;"
@@ -1600,11 +1601,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 											data-frame_2="oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:400;c:#ffffff;"
 											data-frame_3="oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:400;c:#000000;"
 											style="z-index:21;font-family:Poppins;"
-										>Health goth master cleanse polaroid lumbersexual twee brunch. 3 wolf moon offal church-key  
+										>Health goth master cleanse polaroid lumbersexual twee brunch. 3 wolf moon offal church-key
 										</rs-layer><!--
 
 										--><rs-layer
-											id="slider-1-slide-1-layer-53" 
+											id="slider-1-slide-1-layer-53"
 											data-type="text"
 											data-color="#000000"
 											data-xy="x:c;xo:0,-152px,-100px,-40px;yo:0,490px,400px,390px;"
@@ -1621,12 +1622,12 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 											data-frame_2="x:30px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:300;c:#ffffff;"
 											data-frame_3="x:0px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:390;c:#000000;"
 											style="z-index:22;font-family:Roboto;cursor:pointer;"
-										><i class="material-icons">arrow_forward</i> 
+										><i class="material-icons">arrow_forward</i>
 										</rs-layer><!--
 									--></rs-column><!--
 
 									--><rs-column
-										id="slider-1-slide-1-layer-54" 
+										id="slider-1-slide-1-layer-54"
 										data-type="column"
 										data-xy="xo:50px;yo:50px;"
 										data-text="a:left,left,center,center;"
@@ -1639,7 +1640,7 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 										style="z-index:23;cursor:pointer;width:100%;"
 									><!--
 										--><rs-layer
-											id="slider-1-slide-1-layer-55" 
+											id="slider-1-slide-1-layer-55"
 											data-type="text"
 											data-color="#000000"
 											data-xy="xo:0,-150px,-100px,-40px;yo:0,180px,120px,110px;"
@@ -1655,11 +1656,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 											data-frame_2="y:0px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:350;c:#ffffff;"
 											data-frame_3="y:0px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:400;c:#000000;"
 											style="z-index:24;font-family:Poppins;"
-										>Wow. This Is The Best Thing Ever 
+										>Wow. This Is The Best Thing Ever
 										</rs-layer><!--
 
 										--><rs-layer
-											id="slider-1-slide-1-layer-56" 
+											id="slider-1-slide-1-layer-56"
 											data-type="text"
 											data-color="#000000"
 											data-xy="x:c;xo:0,-150px,-100px,-40px;yo:0,359px,260px,250px;"
@@ -1676,11 +1677,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 											data-frame_2="oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:400;c:#ffffff;"
 											data-frame_3="oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:400;c:#000000;"
 											style="z-index:25;font-family:Poppins;"
-										>Umami four dollar toast typewriter normcore, four loko ugh lomo deep v fingerstache. 
+										>Umami four dollar toast typewriter normcore, four loko ugh lomo deep v fingerstache.
 										</rs-layer><!--
 
 										--><rs-layer
-											id="slider-1-slide-1-layer-57" 
+											id="slider-1-slide-1-layer-57"
 											data-type="text"
 											data-color="#000000"
 											data-xy="x:c;xo:0,-152px,-100px,-40px;yo:0,490px,400px,390px;"
@@ -1697,14 +1698,14 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 											data-frame_2="x:30px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:300;c:#ffffff;"
 											data-frame_3="x:0px;oX:50%;oY:50%;oZ:0;tp:600px;e:power4.out;st:a;sp:150;sR:390;c:#000000;"
 											style="z-index:26;font-family:Roboto;cursor:pointer;"
-										><i class="material-icons">arrow_forward</i> 
+										><i class="material-icons">arrow_forward</i>
 										</rs-layer><!--
 									--></rs-column><!--
 								--></rs-row><!--
 							--></rs-zone><!--
 
 							--><rs-group
-								id="slider-1-slide-1-layer-11" 
+								id="slider-1-slide-1-layer-11"
 								data-type="group"
 								data-xy="x:c;"
 								data-dim="w:2400px;h:100%;"
@@ -1716,7 +1717,7 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								style="z-index:45;"
 							><!--
 								--><rs-layer
-									id="slider-1-slide-1-layer-0" 
+									id="slider-1-slide-1-layer-0"
 									data-type="shape"
 									data-xy="x:c;"
 									data-dim="w:1px;h:100%;"
@@ -1726,11 +1727,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:44;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-1-slide-1-layer-1" 
+									id="slider-1-slide-1-layer-1"
 									data-type="shape"
 									data-xy="x:c;xo:-200px,-150px,-100px,-75px;"
 									data-dim="w:1px;h:100%;"
@@ -1740,11 +1741,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:43;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-1-slide-1-layer-2" 
+									id="slider-1-slide-1-layer-2"
 									data-type="shape"
 									data-xy="x:c;xo:-400px,-300px,-200px,-150px;"
 									data-dim="w:1px;h:100%;"
@@ -1754,11 +1755,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:42;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-1-slide-1-layer-3" 
+									id="slider-1-slide-1-layer-3"
 									data-type="shape"
 									data-xy="x:c;xo:-600px,-450px,-300px,-225px;"
 									data-dim="w:1px;h:100%;"
@@ -1768,11 +1769,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:41;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-1-slide-1-layer-4" 
+									id="slider-1-slide-1-layer-4"
 									data-type="shape"
 									data-xy="x:c;xo:-800px,-600px,-400px,-300px;"
 									data-dim="w:1px;h:100%;"
@@ -1782,11 +1783,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:40;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-1-slide-1-layer-5" 
+									id="slider-1-slide-1-layer-5"
 									data-type="shape"
 									data-xy="x:c;xo:-1000px,-750px,-500px,-375px;"
 									data-dim="w:1px;h:100%;"
@@ -1796,11 +1797,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:39;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-1-slide-1-layer-6" 
+									id="slider-1-slide-1-layer-6"
 									data-type="shape"
 									data-xy="x:c;xo:200px,150px,100px,75px;"
 									data-dim="w:1px;h:100%;"
@@ -1810,11 +1811,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:37;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-1-slide-1-layer-7" 
+									id="slider-1-slide-1-layer-7"
 									data-type="shape"
 									data-xy="x:c;xo:400px,300px,200px,150px;"
 									data-dim="w:1px;h:100%;"
@@ -1824,11 +1825,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:36;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-1-slide-1-layer-8" 
+									id="slider-1-slide-1-layer-8"
 									data-type="shape"
 									data-xy="x:c;xo:600px,450px,300px,225px;"
 									data-dim="w:1px;h:100%;"
@@ -1838,11 +1839,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:35;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-1-slide-1-layer-9" 
+									id="slider-1-slide-1-layer-9"
 									data-type="shape"
 									data-xy="x:c;xo:800px,600px,400px,300px;"
 									data-dim="w:1px;h:100%;"
@@ -1852,11 +1853,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:34;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-1-slide-1-layer-10" 
+									id="slider-1-slide-1-layer-10"
 									data-type="shape"
 									data-xy="x:c;xo:1000px,750px,500px,375px;"
 									data-dim="w:1px;h:100%;"
@@ -1866,11 +1867,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:33;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-1-slide-1-layer-21" 
+									id="slider-1-slide-1-layer-21"
 									data-type="shape"
 									data-xy="x:c;xo:-1200px,-900px,-600px,-450px;"
 									data-dim="w:1px;h:100%;"
@@ -1880,11 +1881,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:38;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-1-slide-1-layer-22" 
+									id="slider-1-slide-1-layer-22"
 									data-type="shape"
 									data-xy="x:c;xo:1200px,900px,600px,450px;"
 									data-dim="w:1px;h:100%;"
@@ -1894,12 +1895,12 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:32;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 							--></rs-group><!--
 
 							--><rs-layer
-								id="slider-1-slide-1-layer-14" 
+								id="slider-1-slide-1-layer-14"
 								class="rs-pxl-14"
 								data-type="shape"
 								data-xy="x:c;xo:-300px,-225px,-150px,-113px;y:b;yo:200px,150px,240px,290px;"
@@ -1911,11 +1912,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:300;sp:1500;sR:300;"
 								data-frame_999="st:w;sR:7200;"
 								style="z-index:46;background-color:#eeeeee;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-1-slide-1-layer-17" 
+								id="slider-1-slide-1-layer-17"
 								class="rs-pxl-14"
 								data-type="shape"
 								data-xy="x:c;xo:300px,225px,150px,112px;yo:400px,280px,280px,351px;"
@@ -1927,7 +1928,7 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:400;sp:1500;sR:400;"
 								data-frame_999="st:w;sR:7100;"
 								style="z-index:47;background-color:#eeeeee;"
-							> 
+							>
 							</rs-layer><!--
 -->						</rs-slide>
 					</rs-slides>
@@ -1967,7 +1968,7 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								},
 							});
 						}
-						
+
 					});
 					} // End of RevInitScript
 				var once_news = false;
@@ -1988,7 +1989,7 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 							<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Slide" title="home" data-bg="c:#ffffff;" data-parallax="off" class="rev-slidebg" data-no-retina data-lazy-src="//jojekyll.on.fleek.co/wp-content/plugins/revslider/public/assets/assets/transparent.png"><noscript><img src="//jojekyll.on.fleek.co/wp-content/plugins/revslider/public/assets/assets/transparent.png" alt="Slide" title="home" data-bg="c:#ffffff;" data-parallax="off" class="rev-slidebg" data-no-retina></noscript>
 <!--
 							--><rs-group
-								id="slider-5-slide-5-layer-11" 
+								id="slider-5-slide-5-layer-11"
 								data-type="group"
 								data-xy="x:c;"
 								data-dim="w:2400px;h:100%;"
@@ -2000,7 +2001,7 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								style="z-index:21;"
 							><!--
 								--><rs-layer
-									id="slider-5-slide-5-layer-0" 
+									id="slider-5-slide-5-layer-0"
 									data-type="shape"
 									data-xy="x:c;"
 									data-dim="w:1px;h:100%;"
@@ -2010,11 +2011,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:20;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-5-slide-5-layer-1" 
+									id="slider-5-slide-5-layer-1"
 									data-type="shape"
 									data-xy="x:c;xo:-200px,-150px,-100px,-75px;"
 									data-dim="w:1px;h:100%;"
@@ -2024,11 +2025,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:19;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-5-slide-5-layer-2" 
+									id="slider-5-slide-5-layer-2"
 									data-type="shape"
 									data-xy="x:c;xo:-400px,-300px,-200px,-150px;"
 									data-dim="w:1px;h:100%;"
@@ -2038,11 +2039,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:18;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-5-slide-5-layer-3" 
+									id="slider-5-slide-5-layer-3"
 									data-type="shape"
 									data-xy="x:c;xo:-600px,-450px,-300px,-225px;"
 									data-dim="w:1px;h:100%;"
@@ -2052,11 +2053,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:17;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-5-slide-5-layer-4" 
+									id="slider-5-slide-5-layer-4"
 									data-type="shape"
 									data-xy="x:c;xo:-800px,-600px,-400px,-300px;"
 									data-dim="w:1px;h:100%;"
@@ -2066,11 +2067,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:16;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-5-slide-5-layer-5" 
+									id="slider-5-slide-5-layer-5"
 									data-type="shape"
 									data-xy="x:c;xo:-1000px,-750px,-500px,-375px;"
 									data-dim="w:1px;h:100%;"
@@ -2080,11 +2081,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:15;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-5-slide-5-layer-6" 
+									id="slider-5-slide-5-layer-6"
 									data-type="shape"
 									data-xy="x:c;xo:200px,150px,100px,75px;"
 									data-dim="w:1px;h:100%;"
@@ -2094,11 +2095,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:13;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-5-slide-5-layer-7" 
+									id="slider-5-slide-5-layer-7"
 									data-type="shape"
 									data-xy="x:c;xo:400px,300px,200px,150px;"
 									data-dim="w:1px;h:100%;"
@@ -2108,11 +2109,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:12;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-5-slide-5-layer-8" 
+									id="slider-5-slide-5-layer-8"
 									data-type="shape"
 									data-xy="x:c;xo:600px,450px,300px,225px;"
 									data-dim="w:1px;h:100%;"
@@ -2122,11 +2123,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:11;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-5-slide-5-layer-9" 
+									id="slider-5-slide-5-layer-9"
 									data-type="shape"
 									data-xy="x:c;xo:800px,600px,400px,300px;"
 									data-dim="w:1px;h:100%;"
@@ -2136,11 +2137,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:10;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-5-slide-5-layer-10" 
+									id="slider-5-slide-5-layer-10"
 									data-type="shape"
 									data-xy="x:c;xo:1000px,750px,500px,375px;"
 									data-dim="w:1px;h:100%;"
@@ -2150,11 +2151,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:9;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-5-slide-5-layer-21" 
+									id="slider-5-slide-5-layer-21"
 									data-type="shape"
 									data-xy="x:c;xo:-1200px,-900px,-600px,-450px;"
 									data-dim="w:1px;h:100%;"
@@ -2164,11 +2165,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:14;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-5-slide-5-layer-22" 
+									id="slider-5-slide-5-layer-22"
 									data-type="shape"
 									data-xy="x:c;xo:1200px,900px,600px,450px;"
 									data-dim="w:1px;h:100%;"
@@ -2178,12 +2179,12 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:8;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 							--></rs-group><!--
 
 							--><rs-layer
-								id="slider-5-slide-5-layer-12" 
+								id="slider-5-slide-5-layer-12"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;xo:-300px,-210px,0,0;yo:320px,250px,180px,130px;"
@@ -2197,11 +2198,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:300;sp:1000;sR:300;"
 								data-frame_999="st:w;sR:7500;"
 								style="z-index:29;font-family:Poppins;"
-							>Revolutionize Your Web Presentations 
+							>Revolutionize Your Web Presentations
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-5-slide-5-layer-13" 
+								id="slider-5-slide-5-layer-13"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;xo:-300px,-210px,0,0;yo:500px,419px,280px,230px;"
@@ -2214,12 +2215,12 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:400;sp:1000;sR:400;"
 								data-frame_999="st:w;sR:7600;"
 								style="z-index:28;font-family:Poppins;"
-							>Man bun snackwave activated 
-charcoal unicorn neutra man braid viral bicycle rights keytar.  
+							>Man bun snackwave activated
+charcoal unicorn neutra man braid viral bicycle rights keytar.
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-5-slide-5-layer-14" 
+								id="slider-5-slide-5-layer-14"
 								data-type="shape"
 								data-xy="x:c;y:b;yo:400px,300px,200px,150px;"
 								data-dim="w:1200px,900px,600px,450px;h:600px,550px,800px,575px;"
@@ -2230,11 +2231,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:300;sp:1500;sR:300;"
 								data-frame_999="st:w;sR:7200;"
 								style="z-index:23;background-color:#eeeeee;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-5-slide-5-layer-15" 
+								id="slider-5-slide-5-layer-15"
 								class="rs-pxl-14"
 								data-type="shape"
 								data-xy="x:c;xo:-500px,-375px,-250px,-188px;"
@@ -2246,11 +2247,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:400;sp:1500;sR:400;"
 								data-frame_999="st:w;sR:7100;"
 								style="z-index:22;background-color:#000000;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-5-slide-5-layer-16" 
+								id="slider-5-slide-5-layer-16"
 								data-type="shape"
 								data-xy="x:c;xo:-500px,-375px,-250px,-187px;y:b;yo:200px,150px,100px,75px;"
 								data-dim="w:200px,150px,100px,75px;h:200px,150px,100px,75px;"
@@ -2261,11 +2262,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:500;sp:1500;sR:500;"
 								data-frame_999="st:w;sR:7000;"
 								style="z-index:25;background-color:#ff008e;cursor:pointer;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-5-slide-5-layer-18" 
+								id="slider-5-slide-5-layer-18"
 								class="rs-pxl-2"
 								data-type="shape"
 								data-xy="x:c;xo:700px,525px,350px,188px;y:b;yo:200px,150px,100px,75px;"
@@ -2277,11 +2278,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:300;sp:1500;sR:300;"
 								data-frame_999="st:w;sR:7200;"
 								style="z-index:24;background-color:#eeeeee;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-5-slide-5-layer-19" 
+								id="slider-5-slide-5-layer-19"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;xo:-300px,-212px,0,-1px;yo:640px,560px,390px,341px;"
@@ -2295,11 +2296,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_999="st:w;sR:7500;"
 								data-frame_hover="c:#000;bos:solid;bow:0,0,0,20px;"
 								style="z-index:27;font-family:Roboto;cursor:pointer;"
-							><i class="material-icons">arrow_forward</i> 
+							><i class="material-icons">arrow_forward</i>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-5-slide-5-layer-25" 
+								id="slider-5-slide-5-layer-25"
 								class="rs-pxl-12"
 								data-type="shape"
 								data-xy="x:c;xo:500px,375px,350px,188px;"
@@ -2311,11 +2312,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:300;sp:1500;sR:300;"
 								data-frame_999="st:w;sR:7200;"
 								style="z-index:26;background-color:#eeeeee;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-5-slide-5-layer-27" 
+								id="slider-5-slide-5-layer-27"
 								data-type="image"
 								data-xy="x:c;xo:291px,291px,-8px,-4px;yo:107px,107px,446px,384px;"
 								data-text="s:20,16,12,7;l:0,20,15,9;"
@@ -2332,11 +2333,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_4="sX:1;sY:1;rY:-5deg;oX:50%;oY:50%;oZ:0;tp:600px;e:none;st:4100;sp:2000;"
 								data-tloop="f:frame_3;t:frame_4;"
 								style="z-index:32;"
-							><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20760%20760'%3E%3C/svg%3E" width="760" height="760" data-no-retina data-lazy-src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_head.png"><noscript><img src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_head.png" width="760" height="760" data-no-retina></noscript> 
+							><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20760%20760'%3E%3C/svg%3E" width="760" height="760" data-no-retina data-lazy-src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_head.png"><noscript><img src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_head.png" width="760" height="760" data-no-retina></noscript>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-5-slide-5-layer-28" 
+								id="slider-5-slide-5-layer-28"
 								data-type="shape"
 								data-xy="x:c;xo:420px,420px,72px,44px;yo:230px,230px,523px,431px;"
 								data-text="s:20,16,12,7;l:0,20,15,9;"
@@ -2352,11 +2353,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_3="sX:0.98;sY:0.98;oX:50%;oY:50%;oZ:0;tp:600px;e:none;st:3700;sp:2000;"
 								data-tloop="f:frame_2;t:frame_3;"
 								style="z-index:31;background-color:#00eebb;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-5-slide-5-layer-29" 
+								id="slider-5-slide-5-layer-29"
 								data-type="shape"
 								data-xy="x:c;xo:96px,96px,-130px,-80px;yo:256px,256px,540px,442px;"
 								data-text="s:20,16,12,7;l:0,20,15,9;"
@@ -2372,11 +2373,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_3="y:-5px;sX:0.98;sY:0.98;oX:50%;oY:50%;oZ:0;tp:600px;e:none;st:3800;sp:2000;"
 								data-tloop="f:frame_2;t:frame_3;"
 								style="z-index:30;background-color:#b4f4de;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-5-slide-5-layer-30" 
+								id="slider-5-slide-5-layer-30"
 								data-type="image"
 								data-xy="x:c;xo:148px,178px,-98px,-60px;yo:776px,656px,860px,639px;"
 								data-text="s:20,16,12,7;l:0,20,15,9;"
@@ -2391,11 +2392,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_3="sX:0.98;sY:0.98;rY:5deg;rZ:-2deg;oX:100%;oY:0%;oZ:0;tp:600px;e:none;st:3800;sp:2000;"
 								data-tloop="f:frame_2;t:frame_3;"
 								style="z-index:33;"
-							><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20223%20162'%3E%3C/svg%3E" width="223" height="162" data-no-retina data-lazy-src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_leaf3.png"><noscript><img src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_leaf3.png" width="223" height="162" data-no-retina></noscript> 
+							><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20223%20162'%3E%3C/svg%3E" width="223" height="162" data-no-retina data-lazy-src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_leaf3.png"><noscript><img src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_leaf3.png" width="223" height="162" data-no-retina></noscript>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-5-slide-5-layer-31" 
+								id="slider-5-slide-5-layer-31"
 								data-type="image"
 								data-xy="x:c;xo:594px,566px,182px,112px;yo:680px,589px,800px,602px;"
 								data-text="s:20,16,12,7;l:0,20,15,9;"
@@ -2410,11 +2411,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_3="sX:0.98;sY:0.98;rY:5deg;rZ:-2deg;oX:0%;oY:50%;oZ:0;tp:600px;e:none;st:3850;sp:2000;"
 								data-tloop="f:frame_2;t:frame_3;"
 								style="z-index:34;"
-							><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20150'%3E%3C/svg%3E" width="210" height="150" data-no-retina data-lazy-src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_leaf1.png"><noscript><img src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_leaf1.png" width="210" height="150" data-no-retina></noscript> 
+							><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20150'%3E%3C/svg%3E" width="210" height="150" data-no-retina data-lazy-src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_leaf1.png"><noscript><img src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_leaf1.png" width="210" height="150" data-no-retina></noscript>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-5-slide-5-layer-32" 
+								id="slider-5-slide-5-layer-32"
 								data-type="image"
 								data-xy="x:c;xo:580px,542px,173px,106px;yo:755px,655px,847px,631px;"
 								data-text="s:20,16,12,7;l:0,20,15,9;"
@@ -2429,11 +2430,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_3="sX:0.98;sY:0.98;rY:-5deg;rZ:2deg;oX:0%;oY:0%;oZ:0;tp:600px;e:none;st:3900;sp:2000;"
 								data-tloop="f:frame_2;t:frame_3;"
 								style="z-index:35;"
-							><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20150'%3E%3C/svg%3E" width="210" height="150" data-no-retina data-lazy-src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_leaf2.png"><noscript><img src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_leaf2.png" width="210" height="150" data-no-retina></noscript> 
+							><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20150'%3E%3C/svg%3E" width="210" height="150" data-no-retina data-lazy-src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_leaf2.png"><noscript><img src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_leaf2.png" width="210" height="150" data-no-retina></noscript>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-5-slide-5-layer-33" 
+								id="slider-5-slide-5-layer-33"
 								data-type="image"
 								data-xy="x:c;xo:443px,448px,87px,53px;yo:726px,617px,829px,620px;"
 								data-text="s:20,16,12,7;l:0,20,15,9;"
@@ -2448,11 +2449,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_3="y:5px;sX:0.98;sY:0.98;rY:-10deg;oX:50%;oY:50%;oZ:0;tp:600px;e:none;st:3950;sp:2000;"
 								data-tloop="f:frame_2;t:frame_3;"
 								style="z-index:36;"
-							><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20212%20212'%3E%3C/svg%3E" width="212" height="212" data-no-retina data-lazy-src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_raute.png"><noscript><img src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_raute.png" width="212" height="212" data-no-retina></noscript> 
+							><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20212%20212'%3E%3C/svg%3E" width="212" height="212" data-no-retina data-lazy-src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_raute.png"><noscript><img src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_raute.png" width="212" height="212" data-no-retina></noscript>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-5-slide-5-layer-34" 
+								id="slider-5-slide-5-layer-34"
 								data-type="image"
 								data-xy="x:c;xo:619px,619px,198px,122px;yo:458px,458px,667px,520px;"
 								data-text="s:20,16,12,7;l:0,20,15,9;"
@@ -2467,7 +2468,7 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_3="y:-5px;sX:0.98;sY:0.98;rY:-10deg;oX:50%;oY:50%;oZ:0;tp:600px;e:none;st:4000;sp:2000;"
 								data-tloop="f:frame_2;t:frame_3;"
 								style="z-index:37;"
-							><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20120%2092'%3E%3C/svg%3E" width="120" height="92" data-no-retina data-lazy-src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_triangle.png"><noscript><img src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_triangle.png" width="120" height="92" data-no-retina></noscript> 
+							><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20120%2092'%3E%3C/svg%3E" width="120" height="92" data-no-retina data-lazy-src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_triangle.png"><noscript><img src="//jojekyll.on.fleek.co/wp-content/uploads/revslider/big-bold-highlight1/item_triangle.png" width="120" height="92" data-no-retina></noscript>
 							</rs-layer><!--
 -->						</rs-slide>
 					</rs-slides>
@@ -2507,7 +2508,7 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								},
 							});
 						}
-						
+
 					});
 					} // End of RevInitScript
 				var once_highlight = false;
@@ -2528,7 +2529,7 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 							<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Slide" title="home" data-bg="c:#ffffff;" data-parallax="off" class="rev-slidebg" data-no-retina data-lazy-src="//jojekyll.on.fleek.co/wp-content/plugins/revslider/public/assets/assets/transparent.png"><noscript><img src="//jojekyll.on.fleek.co/wp-content/plugins/revslider/public/assets/assets/transparent.png" alt="Slide" title="home" data-bg="c:#ffffff;" data-parallax="off" class="rev-slidebg" data-no-retina></noscript>
 <!--
 							--><rs-group
-								id="slider-3-slide-3-layer-11" 
+								id="slider-3-slide-3-layer-11"
 								data-type="group"
 								data-xy="x:c;"
 								data-dim="w:2400px;h:100%;"
@@ -2540,7 +2541,7 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								style="z-index:21;"
 							><!--
 								--><rs-layer
-									id="slider-3-slide-3-layer-0" 
+									id="slider-3-slide-3-layer-0"
 									data-type="shape"
 									data-xy="x:c;"
 									data-dim="w:1px;h:100%;"
@@ -2550,11 +2551,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:20;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-3-slide-3-layer-1" 
+									id="slider-3-slide-3-layer-1"
 									data-type="shape"
 									data-xy="x:c;xo:-200px,-150px,-100px,-75px;"
 									data-dim="w:1px;h:100%;"
@@ -2564,11 +2565,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:19;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-3-slide-3-layer-2" 
+									id="slider-3-slide-3-layer-2"
 									data-type="shape"
 									data-xy="x:c;xo:-400px,-300px,-200px,-150px;"
 									data-dim="w:1px;h:100%;"
@@ -2578,11 +2579,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:18;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-3-slide-3-layer-3" 
+									id="slider-3-slide-3-layer-3"
 									data-type="shape"
 									data-xy="x:c;xo:-600px,-450px,-300px,-225px;"
 									data-dim="w:1px;h:100%;"
@@ -2592,11 +2593,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:17;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-3-slide-3-layer-4" 
+									id="slider-3-slide-3-layer-4"
 									data-type="shape"
 									data-xy="x:c;xo:-800px,-600px,-400px,-300px;"
 									data-dim="w:1px;h:100%;"
@@ -2606,11 +2607,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:16;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-3-slide-3-layer-5" 
+									id="slider-3-slide-3-layer-5"
 									data-type="shape"
 									data-xy="x:c;xo:-1000px,-750px,-500px,-375px;"
 									data-dim="w:1px;h:100%;"
@@ -2620,11 +2621,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:15;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-3-slide-3-layer-6" 
+									id="slider-3-slide-3-layer-6"
 									data-type="shape"
 									data-xy="x:c;xo:200px,150px,100px,75px;"
 									data-dim="w:1px;h:100%;"
@@ -2634,11 +2635,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:13;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-3-slide-3-layer-7" 
+									id="slider-3-slide-3-layer-7"
 									data-type="shape"
 									data-xy="x:c;xo:400px,300px,200px,150px;"
 									data-dim="w:1px;h:100%;"
@@ -2648,11 +2649,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:12;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-3-slide-3-layer-8" 
+									id="slider-3-slide-3-layer-8"
 									data-type="shape"
 									data-xy="x:c;xo:600px,450px,300px,225px;"
 									data-dim="w:1px;h:100%;"
@@ -2662,11 +2663,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:11;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-3-slide-3-layer-9" 
+									id="slider-3-slide-3-layer-9"
 									data-type="shape"
 									data-xy="x:c;xo:800px,600px,400px,300px;"
 									data-dim="w:1px;h:100%;"
@@ -2676,11 +2677,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:10;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-3-slide-3-layer-10" 
+									id="slider-3-slide-3-layer-10"
 									data-type="shape"
 									data-xy="x:c;xo:1000px,750px,500px,375px;"
 									data-dim="w:1px;h:100%;"
@@ -2690,11 +2691,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:9;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-3-slide-3-layer-21" 
+									id="slider-3-slide-3-layer-21"
 									data-type="shape"
 									data-xy="x:c;xo:-1200px,-900px,-600px,-450px;"
 									data-dim="w:1px;h:100%;"
@@ -2704,11 +2705,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:14;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 
 								--><rs-layer
-									id="slider-3-slide-3-layer-22" 
+									id="slider-3-slide-3-layer-22"
 									data-type="shape"
 									data-xy="x:c;xo:1200px,900px,600px,450px;"
 									data-dim="w:1px;h:100%;"
@@ -2718,12 +2719,12 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 									data-frame_1="st:700;sR:700;"
 									data-frame_999="st:w;sR:8000;"
 									style="z-index:8;background-color:#eeeeee;"
-								> 
+								>
 								</rs-layer><!--
 							--></rs-group><!--
 
 							--><rs-layer
-								id="slider-3-slide-3-layer-12" 
+								id="slider-3-slide-3-layer-12"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;xo:-200px,-150px,-50px,0;yo:250px,250px,150px,150px;"
@@ -2737,11 +2738,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:300;sp:1000;sR:300;"
 								data-frame_999="st:w;sR:7500;"
 								style="z-index:38;font-family:Poppins;"
-							>The Big & Bold 
+							>The Big & Bold
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-3-slide-3-layer-13" 
+								id="slider-3-slide-3-layer-13"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;xo:-300px,-200px,-100px,-50px;yo:330px,330px,210px,210px;"
@@ -2755,11 +2756,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_999="st:w;sR:7600;"
 								data-frame_hover="c:#000;bos:solid;bow:0,0,0,20px;"
 								style="z-index:37;font-family:Poppins;cursor:pointer;"
-							>Slider Revolution 
+							>Slider Revolution
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-3-slide-3-layer-14" 
+								id="slider-3-slide-3-layer-14"
 								class="rs-pxl-15"
 								data-type="shape"
 								data-xy="x:c;xo:-500px,-375px,-350px,-187px;y:b;"
@@ -2771,11 +2772,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:300;sp:1500;sR:300;"
 								data-frame_999="st:w;sR:7200;"
 								style="z-index:22;background-color:#eeeeee;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-3-slide-3-layer-15" 
+								id="slider-3-slide-3-layer-15"
 								class="rs-pxl-14"
 								data-type="shape"
 								data-xy="x:c;xo:700px,525px,350px,187px;"
@@ -2787,11 +2788,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:400;sp:1500;sR:400;"
 								data-frame_999="st:w;sR:7100;"
 								style="z-index:23;background-color:#000000;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-3-slide-3-layer-16" 
+								id="slider-3-slide-3-layer-16"
 								data-type="shape"
 								data-xy="x:c;xo:500px,375px,250px,187px;y:b;"
 								data-dim="w:200px,150px,100px,75px;h:200px,150px,100px,75px;"
@@ -2802,11 +2803,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:500;sp:1500;sR:500;"
 								data-frame_999="st:w;sR:7000;"
 								style="z-index:25;background-color:#ff008e;cursor:pointer;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-3-slide-3-layer-17" 
+								id="slider-3-slide-3-layer-17"
 								class="rs-pxl-14"
 								data-type="shape"
 								data-xy="x:c;xo:-100px,-75px,-150px,-38px;y:b;"
@@ -2818,11 +2819,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:400;sp:1500;sR:400;"
 								data-frame_999="st:w;sR:7100;"
 								style="z-index:24;background-color:#000000;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><a
-								id="slider-3-slide-3-layer-18" 
+								id="slider-3-slide-3-layer-18"
 								class="rs-layer"
 								href="http://www.facebook.com/themepunchofficial" target="_blank" rel="nofollow noopener"
 								data-type="text"
@@ -2839,11 +2840,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_999="st:w;sR:7150;"
 								data-frame_hover="c:#ff008e;bos:solid;bow:0px,0,0px,0px;"
 								style="z-index:32;font-family:Poppins;cursor:pointer;"
-							>Fb 
+							>Fb
 							</a><!--
 
 							--><a
-								id="slider-3-slide-3-layer-19" 
+								id="slider-3-slide-3-layer-19"
 								class="rs-layer"
 								href="http://twitter.com/themepunch" target="_blank" rel="nofollow noopener"
 								data-type="text"
@@ -2860,11 +2861,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_999="st:w;sR:7100;"
 								data-frame_hover="c:#ff008e;bos:solid;bow:0px,0,0px,0px;"
 								style="z-index:31;font-family:Poppins;cursor:pointer;"
-							>Tw 
+							>Tw
 							</a><!--
 
 							--><rs-layer
-								id="slider-3-slide-3-layer-20" 
+								id="slider-3-slide-3-layer-20"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;xo:199px,150px,150px,75px;yo:250px,250px,400px,400px;"
@@ -2878,11 +2879,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 								data-frame_1="st:300;sp:1000;sR:300;"
 								data-frame_999="st:w;sR:7550;"
 								style="z-index:28;font-family:Poppins;"
-							>Get in Touch 
+							>Get in Touch
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-3-slide-3-layer-23" 
+								id="slider-3-slide-3-layer-23"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;xo:150px,150px,150px,75px;yo:330px,330px,460px,460px;"
@@ -2898,11 +2899,11 @@ charcoal unicorn neutra man braid viral bicycle rights keytar.
 							>31st Street NYC<br/>
 New York<br/>
 T. 9876 54321<br/>
-E. big-bold@yourweb.com 
+E. big-bold@yourweb.com
 							</rs-layer><!--
 
 							--><a
-								id="slider-3-slide-3-layer-24" 
+								id="slider-3-slide-3-layer-24"
 								class="rs-layer"
 								href="http://www.instagram.com/themepunch/" target="_blank" rel="nofollow noopener"
 								data-type="text"
@@ -2919,11 +2920,11 @@ E. big-bold@yourweb.com
 								data-frame_999="st:w;sR:7050;"
 								data-frame_hover="c:#ff008e;bos:solid;bow:0px,0,0px,0px;"
 								style="z-index:30;font-family:Poppins;cursor:pointer;"
-							>In 
+							>In
 							</a><!--
 
 							--><rs-layer
-								id="slider-3-slide-3-layer-25" 
+								id="slider-3-slide-3-layer-25"
 								class="rs-pxl-12"
 								data-type="shape"
 								data-xy="x:c;xo:100px,75px,50px,38px;"
@@ -2935,11 +2936,11 @@ E. big-bold@yourweb.com
 								data-frame_1="st:300;sp:1500;sR:300;"
 								data-frame_999="st:w;sR:7200;"
 								style="z-index:26;background-color:#eeeeee;"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-3-slide-3-layer-26" 
+								id="slider-3-slide-3-layer-26"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;xo:-300px,-200px,-100px,-50px;yo:370px,370px,240px,240px;"
@@ -2953,11 +2954,11 @@ E. big-bold@yourweb.com
 								data-frame_999="st:w;sR:7600;"
 								data-frame_hover="c:#000;bos:solid;bow:0,0,0,20px;"
 								style="z-index:36;font-family:Poppins;cursor:pointer;"
-							>ThemePunch 
+							>ThemePunch
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-3-slide-3-layer-27" 
+								id="slider-3-slide-3-layer-27"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;xo:-300px,-200px,-100px,-50px;yo:410px,410px,270px,270px;"
@@ -2971,11 +2972,11 @@ E. big-bold@yourweb.com
 								data-frame_999="st:w;sR:7600;"
 								data-frame_hover="c:#000;bos:solid;bow:0,0,0,20px;"
 								style="z-index:35;font-family:Poppins;cursor:pointer;"
-							>Essential Grid 
+							>Essential Grid
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-3-slide-3-layer-28" 
+								id="slider-3-slide-3-layer-28"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;xo:-300px,-200px,-100px,-50px;yo:450px,450px,300px,300px;"
@@ -2989,11 +2990,11 @@ E. big-bold@yourweb.com
 								data-frame_999="st:w;sR:7600;"
 								data-frame_hover="c:#000;bos:solid;bow:0,0,0,20px;"
 								style="z-index:34;font-family:Poppins;cursor:pointer;"
-							>Support Center 
+							>Support Center
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-3-slide-3-layer-29" 
+								id="slider-3-slide-3-layer-29"
 								data-type="text"
 								data-color="#000000"
 								data-xy="x:c;xo:-300px,-200px,-100px,-50px;yo:490px,490px,330px,330px;"
@@ -3007,11 +3008,11 @@ E. big-bold@yourweb.com
 								data-frame_999="st:w;sR:7600;"
 								data-frame_hover="c:#000;bos:solid;bow:0,0,0,20px;"
 								style="z-index:33;font-family:Poppins;cursor:pointer;"
-							>Buy Now 
+							>Buy Now
 							</rs-layer><!--
 
 							--><a
-								id="slider-3-slide-3-layer-30" 
+								id="slider-3-slide-3-layer-30"
 								class="rs-layer"
 								href="http://www.youtube.com/user/ThemePunch" target="_blank" rel="nofollow noopener"
 								data-type="text"
@@ -3028,7 +3029,7 @@ E. big-bold@yourweb.com
 								data-frame_999="st:w;sR:7000;"
 								data-frame_hover="c:#ff008e;bos:solid;bow:0px,0,0px,0px;"
 								style="z-index:29;font-family:Poppins;cursor:pointer;"
-							>Yt 
+							>Yt
 							</a><!--
 -->						</rs-slide>
 					</rs-slides>
@@ -3068,7 +3069,7 @@ E. big-bold@yourweb.com
 								},
 							});
 						}
-						
+
 					});
 					} // End of RevInitScript
 				var once_contact = false;
@@ -3080,12 +3081,12 @@ E. big-bold@yourweb.com
 		</div>
 				<link href="https://fonts.googleapis.com/css?family=Roboto:400%7CPoppins:600%2C300&#038;display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
 
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
 <script id='rocket-browser-checker-js-after'>
 "use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
 </script>
@@ -3106,7 +3107,7 @@ var RocketPreloadLinksConfig = {"excludeUris":"\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?
 <script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
 if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
 images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
-if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://jojekyll.on.fleek.co/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"></script>		
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://jojekyll.on.fleek.co/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"></script>
 	<script src="https://jojekyll.on.fleek.co/wp-content/cache/min/1/c1614f66eee4f65471d523dba86f28a6.js" data-minify="1" defer></script></body>
 </html>
 <!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1605264501 -->
